@@ -30,7 +30,7 @@ function createBlogPostElement(blogData, delay) {
     article.setAttribute('data-aos-delay', delay * 100);
     
     // Medium'un thumbnail resmi yoksa varsayılan resmi kullan
-    const thumbnail = blogData.thumbnail || 'assets/images/blog/default.svg';
+    const thumbnail = blogData.thumbnail || '/assets/images/blog/default.svg';
     
     // Tarih formatını Türkçe'ye çevir
     const date = new Date(blogData.pubDate);
