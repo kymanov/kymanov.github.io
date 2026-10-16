@@ -5,63 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Oto-Elektronik | Kerem Yıldız</title>
     <meta name="description" content="Kerem Yıldız'ın oto-elektronik alanındaki deneyimi: ECU arıza tespiti ve programlama, CAN-BUS, sensör kalibrasyonu ve araç yazılımı geliştirme.">
-    <meta name="color-scheme" content="dark">
-    <meta name="theme-color" content="#0a0a0a">
+    <meta name="theme-color" content="#f7f2ea">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='11' fill='%23e0592a'/%3E%3C/svg%3E">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=JetBrains+Mono:wght@400;500;700&display=swap">
-    <link rel="stylesheet" href="/css/industrial.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=DM+Sans:opsz,wght@9..40,400..700&display=swap">
+    <link rel="stylesheet" href="css/site.css">
+    <script>document.documentElement.classList.add('js');</script>
 </head>
 <body>
     <a class="skip-link" href="#main">İçeriğe geç</a>
+    <div class="progress" aria-hidden="true"><span></span></div>
 
     <header class="site-header">
         <div class="wrap header-row">
-            <a class="brand" href="/" aria-label="Portfolyo ana sayfası">[ KYMANOV ]</a>
-            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="siteNav">MENÜ</button>
+            <a class="brand" href="/"><span class="brand-dot" aria-hidden="true"></span>Kerem Yıldız</a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="siteNav">
+                <span class="sr-only">Menü</span><span class="bars" aria-hidden="true"></span>
+            </button>
             <nav class="site-nav" id="siteNav" aria-label="Ana menü">
-                <a href="/#about">01 Hakkımda</a>
-                <a href="/#projects">02 Projeler</a>
-                <a href="/#experience">03 Deneyim</a>
-                <a href="/#awards">04 Ödüller</a>
-                <a href="/#writing">05 Yazılar</a>
-                <a href="/#contact">06 İletişim</a>
-                <a href="/bulten/">07 Bülten</a>
+                <a href="/#about">Hakkımda</a>
+                <a href="/#projects">Projeler</a>
+                <a href="/#experience">Deneyim</a>
+                <a href="/#awards">Ödüller</a>
+                <a href="/#writing">Yazılar</a>
+                <a href="/bulten/">Bülten</a>
+                <a class="nav-cta" href="/#contact">İletişim</a>
             </nav>
         </div>
     </header>
 
     <main id="main">
         <!-- HERO -->
-        <section class="hero" id="top">
+        <section class="page-hero" id="top">
+            <div class="page-hero-bg">
+                <img src="assets/images/web/auto8.webp" alt="" width="1200" height="900">
+            </div>
             <div class="wrap">
-                <p class="meta hero-meta"><a href="/">&lt;&lt;&lt; PORTFOLYO</a><span>/// GÖCEN OTOELEKTRONİK · EDİRNE</span><span>UNIT / KY-02</span></p>
-                <h1 class="macro macro-md">Oto&shy;elektronik<span class="reg">®</span></h1>
-                <div class="hero-rule" aria-hidden="true"></div>
-                <p class="hero-lede">Otomobil elektronik sistemleri, arıza teşhisi, ECU programlama ve araç yazılımı geliştirme alanlarındaki deneyimim.</p>
-                <div class="hero-actions">
-                    <a class="btn btn-solid" href="#areas">[ Uzmanlık alanları &gt;&gt;&gt; ]</a>
-                    <a class="btn" href="/#contact">[ İletişim ]</a>
+                <a class="back-link" href="/" data-reveal>← Ana sayfa</a><br>
+                <p class="chip" data-reveal style="--d: 0.1s"><span class="pulse" aria-hidden="true"></span>Göcen Otoelektronik · Edirne</p>
+                <h1 data-split>Oto-elektronik</h1>
+                <p data-reveal style="--d: 0.4s">Otomobil elektronik sistemleri, arıza teşhisi, ECU programlama ve araç yazılımı geliştirme alanlarındaki deneyimim.</p>
+                <div class="hero-actions" data-reveal style="--d: 0.55s">
+                    <a class="btn btn-primary" href="#gallery">Çalışmalara bak <span aria-hidden="true">→</span></a>
+                    <a class="btn btn-ghost" href="/#contact">İletişime geç</a>
                 </div>
             </div>
         </section>
 
-        <!-- 01 DENEYİM -->
+        <!-- DENEYİM -->
         <section class="section" id="summary" aria-labelledby="summary-title">
-            <div class="wrap">
-                <header class="section-head">
-                    <p class="meta">01 // DENEYİM</p>
-                    <h2 class="macro-sm" id="summary-title">Sahada</h2>
-                </header>
-
-                <div class="about-grid">
-                    <figure class="portrait portrait-wide">
-                        <img src="/assets/images/web/auto7.webp" alt="ECU test düzeneği ve masa üstü elektronik onarım istasyonu" width="1400" height="1050" loading="lazy">
-                        <figcaption class="meta">FIG. 01 — ECU TEST İSTASYONU</figcaption>
+            <div class="wrap about-grid">
+                <div class="about-photos">
+                    <figure class="photo-main" data-reveal="mask">
+                        <img src="assets/images/web/auto7.webp" alt="ECU test düzeneği ve masa üstü elektronik onarım istasyonu" width="1400" height="1050" loading="lazy" data-parallax>
                     </figure>
+                    <figure class="photo-small" data-reveal style="--d: 0.25s">
+                        <img src="assets/images/web/auto1.webp" alt="Diagnostik tablet ile araç içinde çalışma" width="1080" height="1080" loading="lazy">
+                        <figcaption>Araç başında</figcaption>
+                    </figure>
+                </div>
 
-                    <div class="about-text">
+                <div class="about-text">
+                    <p class="eyebrow" data-reveal>Deneyim</p>
+                    <h2 class="section-title" id="summary-title" data-reveal>Çözülemeyen arızaların peşinde.</h2>
+                    <div data-reveal style="--d: 0.1s">
                         <p>2023'ten itibaren Göcen Otoelektronik'te Elektronik Teknisyeni olarak çalışıyorum. Bu süreçte modern araçların elektronik sistemleri, ECU (motor kontrol ünitesi) diagnostiği ve programlaması, arıza teşhisi ve elektronik bileşen onarımı konularında deneyim kazandım.</p>
                         <p>Otomobil yazılımı geliştirme sürecinde araç sensör verilerinin analizi, ECU haritalarının iyileştirilmesi ve performans optimizasyonu üzerinde çalıştım. Çeşitli marka ve modellerde, özellikle Avrupa ve Uzak Doğu menşeili otomobillerde arıza teşhisi yapıp çözüm ürettim.</p>
                         <p>Bu deneyim; elektronik devre analizi, gömülü sistemler ve otomotiv yazılımları alanlarında güçlü bir teknik altyapı oluşturmama katkı sağladı.</p>
@@ -70,42 +79,42 @@
             </div>
         </section>
 
-        <!-- 02 UZMANLIK -->
-        <section class="section" id="areas" aria-labelledby="areas-title">
+        <!-- UZMANLIK -->
+        <section class="section section-alt" id="areas" aria-labelledby="areas-title">
             <div class="wrap">
-                <header class="section-head">
-                    <p class="meta">02 // UZMANLIK ALANLARI</p>
-                    <h2 class="macro-sm" id="areas-title">Uzmanlık</h2>
-                </header>
+                <div class="section-head">
+                    <p class="eyebrow" data-reveal>Uzmanlık alanları</p>
+                    <h2 class="section-title" id="areas-title" data-reveal>Neler yapıyorum.</h2>
+                </div>
 
-                <div class="skill-grid areas">
-                    <article class="skill-col">
-                        <p class="meta">A/01</p>
+                <div class="area-grid" data-stagger>
+                    <article class="area" data-reveal>
+                        <span class="area-no">01</span>
                         <h3>ECU diagnostik ve programlama</h3>
                         <p>Motor kontrol ünitelerinin arıza tespiti, onarımı ve yeniden programlaması. Chip tuning ve performans optimizasyonu.</p>
                     </article>
-                    <article class="skill-col">
-                        <p class="meta">A/02</p>
+                    <article class="area" data-reveal>
+                        <span class="area-no">02</span>
                         <h3>Elektronik arıza teşhisi</h3>
                         <p>Otomobil elektronik sistemlerindeki arızaların teşhisi, devre analizi ve elektronik bileşenlerin onarımı veya değişimi.</p>
                     </article>
-                    <article class="skill-col">
-                        <p class="meta">A/03</p>
+                    <article class="area" data-reveal>
+                        <span class="area-no">03</span>
                         <h3>Otomobil yazılımı geliştirme</h3>
                         <p>Araç performansı ve yakıt optimizasyonu için ECU yazılımlarının geliştirilmesi. Özel kullanım senaryolarına göre yazılım adaptasyonu.</p>
                     </article>
-                    <article class="skill-col">
-                        <p class="meta">A/04</p>
+                    <article class="area" data-reveal>
+                        <span class="area-no">04</span>
                         <h3>CAN-BUS sistemleri</h3>
                         <p>Araç içi haberleşme ağlarının analizi, arıza tespiti ve modifikasyonu. Elektronik modüller arasındaki iletişim sorunlarının çözümü.</p>
                     </article>
-                    <article class="skill-col">
-                        <p class="meta">A/05</p>
+                    <article class="area" data-reveal>
+                        <span class="area-no">05</span>
                         <h3>Sensör kalibrasyonu</h3>
                         <p>Motor, şanzıman ve şasi sensörlerinin kalibrasyonu, değişimi ve arıza tespiti. Sensör verilerinin analizi ve optimizasyonu.</p>
                     </article>
-                    <article class="skill-col">
-                        <p class="meta">A/06</p>
+                    <article class="area" data-reveal>
+                        <span class="area-no">06</span>
                         <h3>Konfor sistemleri</h3>
                         <p>Klima, merkezi kilit, cam, far ve multimedya sistemlerinin arıza tespiti ve onarımı. Modifikasyon ve geliştirme projeleri.</p>
                     </article>
@@ -113,73 +122,53 @@
             </div>
         </section>
 
-        <!-- 03 GALERİ -->
+        <!-- GALERİ -->
         <section class="section" id="gallery" aria-labelledby="gallery-title">
             <div class="wrap">
-                <header class="section-head">
-                    <p class="meta">03 // ÇALIŞMALAR</p>
-                    <h2 class="macro-sm" id="gallery-title">Çalışmalar</h2>
-                </header>
+                <div class="section-head">
+                    <p class="eyebrow" data-reveal>Çalışmalar</p>
+                    <h2 class="section-title" id="gallery-title" data-reveal>Atölyeden ve sahadan.</h2>
+                </div>
 
-                <div class="gallery">
-                    <figure>
-                        <img src="/assets/images/web/auto2.webp" alt="ECU onarımı" width="1080" height="1080" loading="lazy">
-                        <figcaption><span class="meta">G/01</span> ECU arıza teşhisi ve onarımı</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="/assets/images/web/auto3.webp" alt="Araç elektronik arıza teşhisi" width="1080" height="1080" loading="lazy">
-                        <figcaption><span class="meta">G/02</span> Araç elektronik sistemleri arıza teşhisi</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="/assets/images/web/auto4.webp" alt="ECU programlama" width="1080" height="1080" loading="lazy">
-                        <figcaption><span class="meta">G/03</span> ECU programlama ve optimizasyon</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="/assets/images/web/auto5.webp" alt="Sensör sistemleri onarımı" width="1200" height="900" loading="lazy">
-                        <figcaption><span class="meta">G/04</span> Araç sensör sistemleri onarımı</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="/assets/images/web/auto6.webp" alt="CAN-BUS sistemleri" width="1200" height="900" loading="lazy">
-                        <figcaption><span class="meta">G/05</span> CAN-BUS sistemleri çözümleri</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="/assets/images/web/auto7.webp" alt="Araç konfor sistemleri" width="1400" height="1050" loading="lazy">
-                        <figcaption><span class="meta">G/06</span> Konfor sistemleri arıza giderme</figcaption>
-                    </figure>
+                <div class="gallery" data-stagger>
+                    <button type="button" data-reveal><img src="assets/images/web/auto2.webp" alt="ECU onarımı" width="1080" height="1080" loading="lazy"><span class="cap">ECU arıza teşhisi ve onarımı</span></button>
+                    <button type="button" data-reveal><img src="assets/images/web/auto5.webp" alt="Sensör sistemleri onarımı" width="1200" height="900" loading="lazy"><span class="cap">Araç sensör sistemleri onarımı</span></button>
+                    <button type="button" data-reveal><img src="assets/images/web/auto3.webp" alt="Araç elektronik arıza teşhisi" width="1080" height="1080" loading="lazy"><span class="cap">Araç elektronik sistemleri arıza teşhisi</span></button>
+                    <button type="button" data-reveal><img src="assets/images/web/auto6.webp" alt="CAN-BUS sistemleri" width="1200" height="900" loading="lazy"><span class="cap">CAN-BUS sistemleri çözümleri</span></button>
+                    <button type="button" data-reveal><img src="assets/images/web/auto4.webp" alt="ECU programlama" width="1080" height="1080" loading="lazy"><span class="cap">ECU programlama ve optimizasyon</span></button>
+                    <button type="button" data-reveal><img src="assets/images/web/auto7.webp" alt="Araç konfor sistemleri" width="1400" height="1050" loading="lazy"><span class="cap">Konfor sistemleri arıza giderme</span></button>
+                    <button type="button" data-reveal><img src="assets/images/web/auto8.webp" alt="Araç içinde dizüstü bilgisayarla diagnostik" width="1200" height="900" loading="lazy"><span class="cap">Araç içinde diagnostik</span></button>
                 </div>
             </div>
         </section>
 
-        <!-- 04 CİHAZLAR -->
-        <section class="section" id="tools" aria-labelledby="tools-title">
+        <!-- CİHAZLAR -->
+        <section class="section section-alt" id="tools" aria-labelledby="tools-title">
             <div class="wrap">
-                <header class="section-head">
-                    <p class="meta">04 // EKİPMAN</p>
-                    <h2 class="macro-sm" id="tools-title">Cihazlar</h2>
-                </header>
-
-                <ul class="certs">
-                    <li><span>OBD tarayıcılar</span><span class="meta">T/01</span></li>
-                    <li><span>Osiloskop</span><span class="meta">T/02</span></li>
-                    <li><span>ECU programlayıcı</span><span class="meta">T/03</span></li>
-                    <li><span>Diagnostik tabletler</span><span class="meta">T/04</span></li>
-                    <li><span>Lehimleme ekipmanları</span><span class="meta">T/05</span></li>
-                    <li><span>CAN analizörü</span><span class="meta">T/06</span></li>
+                <div class="section-head">
+                    <p class="eyebrow" data-reveal>Ekipman</p>
+                    <h2 class="section-title" id="tools-title" data-reveal>Masamdaki cihazlar.</h2>
+                </div>
+                <ul class="tool-list" data-stagger>
+                    <li data-reveal>OBD tarayıcılar</li>
+                    <li data-reveal>Osiloskop</li>
+                    <li data-reveal>ECU programlayıcı</li>
+                    <li data-reveal>Diagnostik tabletler</li>
+                    <li data-reveal>Lehimleme ekipmanları</li>
+                    <li data-reveal>CAN analizörü</li>
                 </ul>
             </div>
         </section>
 
-        <!-- CTA -->
-        <section class="section" aria-labelledby="cta-title">
+        <!-- İLETİŞİM -->
+        <section class="section contact" aria-labelledby="cta-title">
             <div class="wrap">
-                <header class="section-head">
-                    <p class="meta">05 // İLETİŞİM</p>
-                    <h2 class="macro-sm" id="cta-title">Arıza mı var?</h2>
-                </header>
-                <a class="mail-link" href="mailto:yildizkerem8095@gmail.com">yildizkerem8095<wbr>@gmail.com</a>
-                <div class="hero-actions">
-                    <a class="btn btn-solid" href="/#contact">[ Mesaj gönder &gt;&gt;&gt; ]</a>
-                    <a class="btn" href="/">[ Portfolyoya dön ]</a>
+                <p class="eyebrow" data-reveal>İletişim</p>
+                <h2 class="section-title" id="cta-title" data-reveal>Arıza mı var? Yaz, birlikte bakalım.</h2>
+                <a class="mail-link" href="mailto:yildizkerem8095@gmail.com" data-reveal>yildizkerem8095@gmail.com</a>
+                <div class="socials cta-links" data-reveal>
+                    <a href="/#contact">Mesaj formu</a>
+                    <a href="tel:+905522273219">+90 552 227 3219</a>
                 </div>
             </div>
         </section>
@@ -187,11 +176,17 @@
 
     <footer class="site-footer">
         <div class="wrap footer-row">
-            <span class="meta">© 2026 KEREM YILDIZ</span>
-            <a class="meta" href="#top">YUKARI ↑</a>
+            <span>© 2026 Kerem Yıldız</span>
+            <a href="#top">Yukarı ↑</a>
         </div>
     </footer>
 
-    <script src="/js/nav.js"></script>
+    <dialog class="lightbox" id="lightbox" aria-label="Fotoğraf">
+        <button class="modal-close" type="button" aria-label="Kapat">×</button>
+        <img src="" alt="">
+        <p></p>
+    </dialog>
+
+    <script src="js/site.js"></script>
 </body>
 </html>
