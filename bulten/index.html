@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bülten | kymanov</title>
+    <meta name="description" content="ECU unlock, açılım haberleri, KESS3, AutoTuner, OBDSTAR ve Magic Motorsport güncellemeleri ile otoelektronik distribütör duyurularının günlük Türkçe özeti.">
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/animations.css">
+    <link rel="stylesheet" href="../css/newsletter.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo"><a href="/">@kymanov</a></div>
+            <div class="theme-switch-wrapper">
+                <label class="theme-switch" for="checkbox">
+                    <input type="checkbox" id="checkbox" />
+                    <div class="slider round">
+                        <i class="fas fa-sun"></i>
+                        <i class="fas fa-moon"></i>
+                    </div>
+                </label>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero newsletter-hero">
+            <div class="container newsletter-container">
+                <div class="hero-content newsletter-intro">
+                    <span class="newsletter-badge"><i class="fas fa-envelope-open-text"></i> Bülten</span>
+                    <h1>ECU dünyasında her sabah neler olduğunu dakikalar içinde öğren</h1>
+                    <h2>ECU unlock, açılım ve cihaz güncellemeleri</h2>
+                    <p>KESS3, AutoTuner, OBDSTAR ve Magic Motorsport güncellemeleri ile Türkiye'deki otoelektronik distribütörlerinin duyuruları, tek bir Türkçe özette ve kaynak linkleriyle e-posta kutunda.</p>
+                    <ul class="newsletter-points">
+                        <li><i class="fas fa-check"></i> Her sabah tek e-posta, kısa ve Türkçe</li>
+                        <li><i class="fas fa-check"></i> Her haberde kaynağa tek tıkla gidiş</li>
+                        <li><i class="fas fa-check"></i> Spam yok, istediğin an ayrılabilirsin</li>
+                        <li><i class="fas fa-check"></i> E-posta adresin üçüncü kişilerle paylaşılmaz</li>
+                    </ul>
+                </div>
+
+                <div class="newsletter-card">
+                    <h3>Bültene abone ol</h3>
+                    <form id="newsletterForm" action="https://formspree.io/f/xeqgrvln" method="POST" novalidate>
+                        <input type="hidden" name="_subject" value="Yeni bülten aboneliği">
+                        <input type="hidden" name="form" value="newsletter">
+                        <div class="form-group">
+                            <label for="nl-name">İsim <span class="optional">(isteğe bağlı)</span></label>
+                            <input type="text" id="nl-name" name="name" autocomplete="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="nl-email">E-posta</label>
+                            <input type="email" id="nl-email" name="email" autocomplete="email" required>
+                        </div>
+                        <!-- Bot tuzağı: gerçek kullanıcılar görmez -->
+                        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" class="nl-trap" aria-hidden="true">
+                        <label class="nl-consent">
+                            <input type="checkbox" id="nl-consent" required>
+                            <span>Bülten e-postaları almayı kabul ediyorum.</span>
+                        </label>
+                        <button type="submit" class="btn btn-primary nl-submit">Abone Ol</button>
+                        <p class="nl-status" id="nlStatus" role="status" aria-live="polite"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Kerem Yıldız</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/newsletter.js"></script>
+</body>
+</html>
