@@ -3,32 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kerem Yıldız | Yazılım ve Robotik</title>
+    <title>Kerem Yıldız | Yazılım, Robotik ve Oto-Elektronik</title>
     <meta name="robots" content="noindex, nofollow">
     <meta name="description" content="Kerem Yıldız: yazılım geliştirici, robotik ve oto-elektronik. Otonom sistemler, görüntü işleme, gömülü yazılım ve ECU onarımı.">
-    <meta name="color-scheme" content="dark">
-    <meta name="theme-color" content="#0a0a0a">
+    <meta name="theme-color" content="#f7f2ea">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='11' fill='%23e0592a'/%3E%3C/svg%3E">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=JetBrains+Mono:wght@400;500;700&display=swap">
-    <link rel="stylesheet" href="css/industrial.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=DM+Sans:opsz,wght@9..40,400..700&display=swap">
+    <link rel="stylesheet" href="css/site.css">
+    <script>document.documentElement.classList.add('js');</script>
 </head>
 <body>
     <a class="skip-link" href="#main">İçeriğe geç</a>
+    <div class="progress" aria-hidden="true"><span></span></div>
 
     <header class="site-header">
         <div class="wrap header-row">
-            <a class="brand" href="#top" aria-label="Sayfa başı">[ KYMANOV ]</a>
-            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="siteNav">MENÜ</button>
+            <a class="brand" href="#top"><span class="brand-dot" aria-hidden="true"></span>Kerem Yıldız</a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="siteNav">
+                <span class="sr-only">Menü</span><span class="bars" aria-hidden="true"></span>
+            </button>
             <nav class="site-nav" id="siteNav" aria-label="Ana menü">
-                <a href="#about">01 Hakkımda</a>
-                <a href="#projects">02 Projeler</a>
-                <a href="#experience">03 Deneyim</a>
-                <a href="#awards">04 Ödüller</a>
-                <a href="#writing">05 Yazılar</a>
-                <a href="#contact">06 İletişim</a>
-                <a href="/bulten/">07 Bülten</a>
+                <a href="#about">Hakkımda</a>
+                <a href="#projects">Projeler</a>
+                <a href="#experience">Deneyim</a>
+                <a href="#awards">Ödüller</a>
+                <a href="#writing">Yazılar</a>
+                <a href="/bulten/">Bülten</a>
+                <a class="nav-cta" href="#contact">İletişim</a>
             </nav>
         </div>
     </header>
@@ -36,366 +40,379 @@
     <main id="main">
         <!-- HERO -->
         <section class="hero" id="top">
-            <div class="wrap">
-                <p class="meta hero-meta"><span>REV 2.6</span><span>/// İSTANBUL · EDİRNE</span><span>UNIT / KY-01</span></p>
-                <h1 class="macro">Kerem<br>Yıldız<span class="reg">®</span></h1>
-                <div class="hero-rule" aria-hidden="true"></div>
+            <div class="wrap hero-grid">
+                <div class="hero-text">
+                    <p class="chip" data-reveal><span class="pulse" aria-hidden="true"></span>İTÜ ASTeam · Göcen Otoelektronik</p>
+                    <h1 class="hero-title" data-split>Merhaba, ben <em>Kerem.</em></h1>
+                    <p class="hero-lede" data-reveal style="--d: 0.35s">Elektronik, yazılım ve robotikle çalışan sistemler kuruyorum: yarışma sualtı araçlarından motor kontrol ünitelerine kadar.</p>
+                    <div class="hero-actions" data-reveal style="--d: 0.5s">
+                        <a class="btn btn-primary" href="#projects">Projelerime bak <span aria-hidden="true">→</span></a>
+                        <a class="btn btn-ghost" href="#contact">İletişime geç</a>
+                    </div>
+                    <p class="hero-place" data-reveal style="--d: 0.6s">İstanbul · Edirne</p>
+                </div>
 
-                <dl class="spec">
-                    <div><dt>Rol</dt><dd>Yazılım Ekip Lideri<br>İTÜ ASTeam</dd></div>
-                    <div><dt>Odak</dt><dd>Otonom sistemler<br>Görüntü işleme · Gömülü</dd></div>
-                    <div><dt>Sahada</dt><dd>ECU arıza tespiti<br>Göcen Otoelektronik</dd></div>
-                    <div><dt>Kayıt</dt><dd><data value="6">06</data> birincilik<br><data value="2">02</data> üçüncülük</dd></div>
-                </dl>
+                <div class="hero-stack" aria-label="Çalışmalardan fotoğraflar">
+                    <figure class="stack-photo s1">
+                        <img src="assets/images/web/beta.webp" alt="MTRC-Beta sualtı aracı havuzda" width="1400" height="788">
+                        <figcaption>Sualtı aracı</figcaption>
+                    </figure>
+                    <figure class="stack-photo s2">
+                        <img src="assets/images/web/auto7.webp" alt="ECU test düzeneği ve onarım masası" width="1400" height="1050">
+                        <figcaption>ECU masası</figcaption>
+                    </figure>
+                    <figure class="stack-photo s3">
+                        <img src="assets/images/web/girisim2.webp" alt="Kerem Yıldız, T3 Girişim Merkezi etkinliğinde" width="1051" height="1400">
+                        <figcaption>Kerem</figcaption>
+                    </figure>
+                </div>
+            </div>
 
-                <p class="hero-lede">Elektronik, yazılım ve robotik. Yarışma araçlarından motor kontrol ünitelerine kadar, çalışan sistemler kuruyorum.</p>
-                <div class="hero-actions">
-                    <a class="btn btn-solid" href="#projects">[ Projeler &gt;&gt;&gt; ]</a>
-                    <a class="btn" href="#contact">[ İletişim ]</a>
+            <div class="marquee" aria-hidden="true">
+                <div class="marquee-track">
+                    <span>Python</span><span>ROS</span><span>ECU onarımı</span><span>Görüntü işleme</span><span>C++</span><span>CAN-BUS</span><span>Gömülü sistemler</span><span>SLAM</span><span>Django</span><span>Otonom sistemler</span>
+                    <span>Python</span><span>ROS</span><span>ECU onarımı</span><span>Görüntü işleme</span><span>C++</span><span>CAN-BUS</span><span>Gömülü sistemler</span><span>SLAM</span><span>Django</span><span>Otonom sistemler</span>
                 </div>
             </div>
         </section>
 
-        <!-- 01 HAKKIMDA -->
+        <!-- SAYILAR -->
+        <section class="stats" aria-label="Özet">
+            <div class="wrap stats-grid" data-stagger>
+                <div class="stat" data-reveal><strong data-count="6">6</strong><span>hackathon ve girişim birinciliği</span></div>
+                <div class="stat" data-reveal><strong data-count="2">2</strong><span>üçüncülük</span></div>
+                <div class="stat" data-reveal><strong data-count="8">8</strong><span>öne çıkan proje</span></div>
+                <div class="stat" data-reveal><strong data-count="10">10</strong><span>sertifika</span></div>
+            </div>
+        </section>
+
+        <!-- HAKKIMDA -->
         <section class="section" id="about" aria-labelledby="about-title">
-            <div class="wrap">
-                <header class="section-head">
-                    <p class="meta">01 // HAKKIMDA</p>
-                    <h2 class="macro-sm" id="about-title">Hakkımda</h2>
-                </header>
-
-                <div class="about-grid">
-                    <figure class="portrait">
-                        <img src="assets/images/web/girisim2.webp" alt="Kerem Yıldız" width="768" height="1024" loading="lazy">
-                        <figcaption class="meta">FIG. 01 — K. YILDIZ</figcaption>
+            <div class="wrap about-grid">
+                <div class="about-photos">
+                    <figure class="photo-main" data-reveal="mask">
+                        <img src="assets/images/web/girisim2.webp" alt="Kerem Yıldız" width="1051" height="1400" loading="lazy" data-parallax>
                     </figure>
+                    <figure class="photo-small" data-reveal style="--d: 0.25s">
+                        <img src="assets/images/web/robotrak.webp" alt="RoboTrak'22 ödül töreninde takım" width="485" height="327" loading="lazy">
+                        <figcaption>RoboTrak'22</figcaption>
+                    </figure>
+                </div>
 
-                    <div class="about-text">
+                <div class="about-text">
+                    <p class="eyebrow" data-reveal>Hakkımda</p>
+                    <h2 class="section-title" id="about-title" data-reveal>Lise yıllarından beri devre, kod ve robot.</h2>
+                    <div data-reveal style="--d: 0.1s">
                         <p>Elektronik ve yazılım alanlarında lise yıllarından itibaren çalışmalara başladım, 2020'den itibaren robotik yarışmalara katıldım. Yarışma süreçlerinde elektronik devre tasarımı, katı modelleme ve gömülü yazılım alanlarında kendimi geliştirdim.</p>
                         <p>2022 sonrası hackathon ve girişimcilik alanlarına yöneldim. Bu projelerde web geliştirme, yapay zeka ve görüntü işleme üzerine çalıştım.</p>
-                        <p>Şu anda İTÜ ASTeam'de Yazılım Ekip Lideri olarak çalışıyor, otonom sistemler üzerine yoğunlaşıyorum.</p>
+                        <p>Şu anda İTÜ ASTeam'de Yazılım Ekip Lideri olarak otonom sistemler üzerine çalışıyorum. Edirne'de Göcen Otoelektronik'te ECU arıza tespiti ve onarımı yapıyorum.</p>
+                    </div>
 
-                        <dl class="facts">
-                            <div><dt>Eğitim</dt><dd>Harita Mühendisliği, Gebze Teknik Üniversitesi</dd></div>
-                            <div><dt>Eğitim</dt><dd>Bilgisayar Programcılığı, Anadolu Üniversitesi</dd></div>
-                            <div><dt>Konum</dt><dd>İstanbul, Türkiye</dd></div>
-                        </dl>
-                    </div>
-                </div>
+                    <dl class="facts" data-reveal style="--d: 0.2s">
+                        <div><dt>Eğitim</dt><dd>Harita Mühendisliği, Gebze Teknik Üniversitesi</dd></div>
+                        <div><dt>Eğitim</dt><dd>Bilgisayar Programcılığı, Anadolu Üniversitesi</dd></div>
+                        <div><dt>Konum</dt><dd>İstanbul, Türkiye</dd></div>
+                    </dl>
 
-                <h3 class="meta block-title">&gt; YETKİNLİKLER</h3>
-                <div class="skill-grid">
-                    <div class="skill-col">
-                        <h4>Diller</h4>
-                        <ul>
-                            <li>Python</li>
-                            <li>C++</li>
-                            <li>JavaScript</li>
-                        </ul>
-                    </div>
-                    <div class="skill-col">
-                        <h4>Araçlar</h4>
-                        <ul>
-                            <li>ROS</li>
-                            <li>Linux</li>
-                            <li>Django</li>
-                        </ul>
-                    </div>
-                    <div class="skill-col">
-                        <h4>Alanlar</h4>
-                        <ul>
-                            <li>Makine öğrenmesi ve yapay zeka</li>
-                            <li>Görüntü işleme</li>
-                            <li>Gömülü sistemler</li>
-                        </ul>
+                    <div class="skills" data-stagger>
+                        <div class="skill-group" data-reveal>
+                            <h3>Diller</h3>
+                            <ul><li>Python</li><li>C++</li><li>JavaScript</li></ul>
+                        </div>
+                        <div class="skill-group" data-reveal>
+                            <h3>Araçlar</h3>
+                            <ul><li>ROS</li><li>Linux</li><li>Django</li></ul>
+                        </div>
+                        <div class="skill-group" data-reveal>
+                            <h3>Alanlar</h3>
+                            <ul><li>Makine öğrenmesi</li><li>Görüntü işleme</li><li>Gömülü sistemler</li></ul>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- 02 PROJELER -->
-        <section class="section" id="projects" aria-labelledby="projects-title">
+        <!-- PROJELER -->
+        <section class="section section-alt" id="projects" aria-labelledby="projects-title">
             <div class="wrap">
-                <header class="section-head">
-                    <p class="meta">02 // PROJELER</p>
-                    <h2 class="macro-sm" id="projects-title">Projeler</h2>
-                </header>
-
-                <div class="filters" role="group" aria-label="Proje filtresi">
-                    <button class="filter" type="button" data-filter="all" aria-pressed="true">[ Tümü ]</button>
-                    <button class="filter" type="button" data-filter="automotive" aria-pressed="false">[ Oto-elektronik ]</button>
-                    <button class="filter" type="button" data-filter="robotics" aria-pressed="false">[ Robotik ]</button>
-                    <button class="filter" type="button" data-filter="ai" aria-pressed="false">[ Yapay zeka ]</button>
-                    <button class="filter" type="button" data-filter="web" aria-pressed="false">[ Web ]</button>
-                    <button class="filter" type="button" data-filter="hackathon" aria-pressed="false">[ Hackathon ]</button>
+                <div class="section-head">
+                    <p class="eyebrow" data-reveal>Projeler</p>
+                    <h2 class="section-title" id="projects-title" data-reveal>Atölyeden, havuzdan ve hackathonlardan.</h2>
                 </div>
 
-                <div class="project-list">
-                    <article class="project" data-category="automotive">
-                        <span class="project-no meta">P/01</span>
-                        <img src="assets/images/web/auto7.webp" alt="ECU test düzeneği ve masa üstü elektronik onarım istasyonu" width="400" height="300" loading="lazy">
-                        <div class="project-body">
+                <div class="filters" role="group" aria-label="Proje filtresi" data-reveal>
+                    <button class="filter" type="button" data-filter="all" aria-pressed="true">Tümü</button>
+                    <button class="filter" type="button" data-filter="automotive" aria-pressed="false">Oto-elektronik</button>
+                    <button class="filter" type="button" data-filter="robotics" aria-pressed="false">Robotik</button>
+                    <button class="filter" type="button" data-filter="ai" aria-pressed="false">Yapay zeka</button>
+                    <button class="filter" type="button" data-filter="web" aria-pressed="false">Web</button>
+                    <button class="filter" type="button" data-filter="hackathon" aria-pressed="false">Hackathon</button>
+                </div>
+
+                <div class="project-grid" data-stagger>
+                    <article class="card card-wide" data-category="automotive" data-reveal>
+                        <div class="card-media">
+                            <img src="assets/images/web/auto7.webp" alt="ECU test düzeneği ve masa üstü elektronik onarım istasyonu" width="1400" height="1050" loading="lazy">
+                        </div>
+                        <div class="card-body">
                             <h3>Oto-elektronik ve ECU programlama</h3>
                             <p>Otomobil elektronik sistemleri, ECU arıza tespiti ve programlama, performans optimizasyonu çalışmaları.</p>
                             <ul class="tags"><li>ECU</li><li>Diagnostik</li><li>Programlama</li><li>Elektronik</li></ul>
+                            <a class="card-link" href="auto-electronics.html">Detaylı sayfa <span aria-hidden="true">→</span></a>
                         </div>
-                        <a class="btn btn-sm" href="/auto-electronics.html">[ Detaylı sayfa &gt;&gt;&gt; ]</a>
                     </article>
 
-                    <article class="project" data-category="ai web hackathon">
-                        <span class="project-no meta">P/02</span>
-                        <img src="assets/images/web/asifinBoga.webp" alt="AsiFin logosu" width="400" height="300" loading="lazy">
-                        <div class="project-body">
-                            <p class="badge">[ ★ Teknofest 2024 ]</p>
+                    <article class="card" data-category="ai web hackathon" data-reveal>
+                        <div class="card-media">
+                            <span class="badge">🏆 Teknofest 2024</span>
+                            <img src="assets/images/web/asifinBoga.webp" alt="AsiFin logosu" width="1400" height="1400" loading="lazy">
+                        </div>
+                        <div class="card-body">
                             <h3>AsiFin: finansal strateji platformu</h3>
                             <p>Finansal stratejilerin test edilmesini sağlayan web tabanlı bir SaaS girişimi.</p>
                             <ul class="tags"><li>Python</li><li>Django</li><li>JavaScript</li><li>Finans</li></ul>
+                            <button class="card-link" type="button" data-project="asifin">Detaylar <span aria-hidden="true">→</span></button>
                         </div>
-                        <button class="btn btn-sm" type="button" data-project="asifin">[ Detaylar &gt;&gt;&gt; ]</button>
                     </article>
 
-                    <article class="project" data-category="ai hackathon">
-                        <span class="project-no meta">P/03</span>
-                        <img src="assets/images/web/asimed.webp" alt="Asimed ekran tasarımları" width="400" height="300" loading="lazy">
-                        <div class="project-body">
-                            <p class="badge">[ ★ Bulutklinik Hackathon ]</p>
+                    <article class="card" data-category="ai hackathon" data-reveal>
+                        <div class="card-media">
+                            <span class="badge">🏆 Bulutklinik Hackathon</span>
+                            <img src="assets/images/web/asimed.webp" alt="Asimed ekran tasarımları" width="933" height="1400" loading="lazy">
+                        </div>
+                        <div class="card-body">
                             <h3>Asimed: sağlık teknolojisi</h3>
                             <p>Yapay zeka destekli ön teşhis, online anamnez ve doktor destek ekranları.</p>
                             <ul class="tags"><li>Python</li><li>AI</li><li>Görüntü işleme</li><li>Sağlık</li></ul>
+                            <button class="card-link" type="button" data-project="asimed">Detaylar <span aria-hidden="true">→</span></button>
                         </div>
-                        <button class="btn btn-sm" type="button" data-project="asimed">[ Detaylar &gt;&gt;&gt; ]</button>
                     </article>
 
-                    <article class="project" data-category="robotics">
-                        <span class="project-no meta">P/04</span>
-                        <img src="assets/images/web/beta.webp" alt="MTRC-Beta sualtı aracı havuzda" width="400" height="300" loading="lazy">
-                        <div class="project-body">
+                    <article class="card" data-category="robotics" data-reveal>
+                        <div class="card-media">
+                            <img src="assets/images/web/beta.webp" alt="MTRC-Beta sualtı aracı havuzda" width="1400" height="788" loading="lazy">
+                        </div>
+                        <div class="card-body">
                             <h3>MTRC-Beta sualtı aracı</h3>
                             <p>Teknofest yarışması için geliştirilen gelişmiş otonom sualtı aracı.</p>
                             <ul class="tags"><li>ROS</li><li>C++</li><li>Görüntü işleme</li><li>Elektronik</li></ul>
+                            <button class="card-link" type="button" data-project="mtrcbeta">Detaylar <span aria-hidden="true">→</span></button>
                         </div>
-                        <button class="btn btn-sm" type="button" data-project="mtrcbeta">[ Detaylar &gt;&gt;&gt; ]</button>
                     </article>
 
-                    <article class="project" data-category="robotics">
-                        <span class="project-no meta">P/05</span>
-                        <img src="assets/images/web/alpha.webp" alt="MTRC-Alpha sualtı aracı" width="400" height="300" loading="lazy">
-                        <div class="project-body">
+                    <article class="card" data-category="robotics" data-reveal>
+                        <div class="card-media">
+                            <img src="assets/images/web/alpha.webp" alt="MTRC-Alpha sualtı aracı ve yanında bir kedi" width="1400" height="1050" loading="lazy">
+                        </div>
+                        <div class="card-body">
                             <h3>MTRC-Alpha sualtı aracı</h3>
                             <p>Matiricie takımının ilk otonom sualtı aracı projesi.</p>
                             <ul class="tags"><li>Arduino</li><li>Python</li><li>OpenCV</li><li>Mekanik</li></ul>
+                            <button class="card-link" type="button" data-project="mtrcalpha">Detaylar <span aria-hidden="true">→</span></button>
                         </div>
-                        <button class="btn btn-sm" type="button" data-project="mtrcalpha">[ Detaylar &gt;&gt;&gt; ]</button>
                     </article>
 
-                    <article class="project" data-category="robotics">
-                        <span class="project-no meta">P/06</span>
-                        <img src="assets/images/web/poseidon.webp" alt="Poseidon sualtı aracı gövdesi" width="400" height="300" loading="lazy">
-                        <div class="project-body">
+                    <article class="card" data-category="robotics" data-reveal>
+                        <div class="card-media">
+                            <img src="assets/images/web/poseidon.webp" alt="Poseidon sualtı aracı gövdesi" width="1050" height="1400" loading="lazy">
+                        </div>
+                        <div class="card-body">
                             <h3>Poseidon sualtı aracı</h3>
                             <p>RoboNation RoboSub yarışması için geliştirilen uluslararası düzeyde sualtı aracı.</p>
                             <ul class="tags"><li>ROS</li><li>AI</li><li>Sensör füzyonu</li><li>3D model</li></ul>
+                            <button class="card-link" type="button" data-project="poseidon">Detaylar <span aria-hidden="true">→</span></button>
                         </div>
-                        <button class="btn btn-sm" type="button" data-project="poseidon">[ Detaylar &gt;&gt;&gt; ]</button>
                     </article>
 
-                    <article class="project" data-category="robotics">
-                        <span class="project-no meta">P/07</span>
-                        <img src="assets/images/web/maikong.webp" alt="Maikong sualtı aracı CAD modeli" width="400" height="300" loading="lazy">
-                        <div class="project-body">
+                    <article class="card" data-category="robotics" data-reveal>
+                        <div class="card-media">
+                            <img src="assets/images/web/maikong.webp" alt="Maikong sualtı aracı CAD modeli" width="526" height="474" loading="lazy">
+                        </div>
+                        <div class="card-body">
                             <h3>Maikong sualtı aracı</h3>
                             <p>Denizaltı haritalandırma ve keşif için geliştirilen sualtı robotik platformu.</p>
                             <ul class="tags"><li>SLAM</li><li>Lidar</li><li>Sonar</li><li>Navigasyon</li></ul>
+                            <button class="card-link" type="button" data-project="maikong">Detaylar <span aria-hidden="true">→</span></button>
                         </div>
-                        <button class="btn btn-sm" type="button" data-project="maikong">[ Detaylar &gt;&gt;&gt; ]</button>
                     </article>
 
-                    <article class="project" data-category="ai hackathon automotive">
-                        <span class="project-no meta">P/08</span>
-                        <img src="assets/images/web/borusan.webp" alt="BMW 3.20D ve Borusan AutoHack illüstrasyonu" width="400" height="300" loading="lazy">
-                        <div class="project-body">
-                            <p class="badge">[ ★ Borusan AutoHack ]</p>
+                    <article class="card" data-category="ai hackathon automotive" data-reveal>
+                        <div class="card-media">
+                            <span class="badge">🏆 Borusan AutoHack</span>
+                            <img src="assets/images/web/borusan.webp" alt="BMW 3.20D ve Borusan AutoHack illüstrasyonu" width="460" height="568" loading="lazy">
+                        </div>
+                        <div class="card-body">
                             <h3>BMW 3.20D fiyat tahmin modeli</h3>
                             <p>Sahibinden.com verileriyle BMW 3.20D araçlarının fiyatını tahmin eden makine öğrenmesi modeli.</p>
                             <ul class="tags"><li>Python</li><li>Random Forest</li><li>Makine öğrenmesi</li><li>Veri bilimi</li></ul>
+                            <button class="card-link" type="button" data-project="bmw320d">Detaylar <span aria-hidden="true">→</span></button>
                         </div>
-                        <button class="btn btn-sm" type="button" data-project="bmw320d">[ Detaylar &gt;&gt;&gt; ]</button>
                     </article>
                 </div>
             </div>
         </section>
 
-        <!-- 03 DENEYİM -->
+        <!-- DENEYİM -->
         <section class="section" id="experience" aria-labelledby="experience-title">
-            <div class="wrap">
-                <header class="section-head">
-                    <p class="meta">03 // DENEYİM</p>
-                    <h2 class="macro-sm" id="experience-title">Deneyim</h2>
-                </header>
-
-                <ol class="log">
-                    <li>
-                        <time class="log-date meta">2025 — Şimdi</time>
-                        <div>
-                            <h3>Yazılım Ekip Lideri</h3>
-                            <p class="org">İTÜ ASTeam</p>
-                            <ul class="dash">
-                                <li>Gömülü kontrol yazılımı geliştirme</li>
-                                <li>Otonom gemi ve sualtı güdüm yazılımı geliştirme</li>
-                                <li>Görüntü işleme</li>
-                                <li>Robot Operating System</li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li>
-                        <time class="log-date meta">2024 — 2025</time>
-                        <div>
-                            <h3>Elektronik ve Yazılım Ekip Üyesi</h3>
-                            <p class="org">İTÜ ASTeam</p>
-                            <ul class="dash">
-                                <li>Robot Operating System geliştirme</li>
-                                <li>PCB ve elektronik sistem tasarımı</li>
-                                <li>Araç simülasyonu geliştirme</li>
-                                <li>Otonom SLAM algoritması geliştirme</li>
-                                <li>Lidar ve sonar haritalandırma</li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li>
-                        <time class="log-date meta">2024</time>
-                        <div>
-                            <h3>Mentörlük</h3>
-                            <p class="org">İTÜ Seatech Innovators</p>
-                            <ul class="dash">
-                                <li>Robot Operating System</li>
-                                <li>Jetson Nano, Xavier NX gömülü yazılım</li>
-                                <li>Görüntü işleme</li>
-                                <li>Güdüm algoritmaları geliştirme</li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li>
-                        <time class="log-date meta">2023 — Şimdi</time>
-                        <div>
-                            <h3>Elektronik Teknisyeni</h3>
-                            <p class="org">Göcen Otoelektronik, Edirne</p>
-                            <ul class="dash">
-                                <li>Elektronik arıza tespiti</li>
-                                <li>Otomobil yazılımı geliştirme</li>
-                                <li>Motor kontrol ünitesi (ECU) onarımı</li>
-                            </ul>
-                        </div>
-                    </li>
-                </ol>
-            </div>
-        </section>
-
-        <!-- 04 ÖDÜLLER -->
-        <section class="section" id="awards" aria-labelledby="awards-title">
-            <div class="wrap">
-                <header class="section-head">
-                    <p class="meta">04 // ÖDÜLLER VE SERTİFİKALAR</p>
-                    <h2 class="macro-sm" id="awards-title">Ödüller</h2>
-                </header>
-
-                <ol class="awards">
-                    <li class="first"><span class="rank">1</span><div><h3>En İyi Girişim, Teknofest Deneyap Girişim Programı</h3><p>AsiFin, finansal stratejilerin test edilmesini sağlayan web tabanlı SaaS girişimi · Django ve finans yazılımı geliştirici</p></div><time>2024</time></li>
-                    <li class="first"><span class="rank">1</span><div><h3>GSB Uluslararası Gençlik Bilgilendirme Servisi Hackathonu</h3><p>SoruCan · LLM ve Django geliştirici</p></div><time>2024</time></li>
-                    <li class="first"><span class="rank">1</span><div><h3>Edirne Belediyesi Well-Based Hackathon</h3><p>Yazılım geliştirici</p></div><time>2024</time></li>
-                    <li class="first"><span class="rank">1</span><div><h3>TRK Code of Century Hackathon</h3><p>AsiFin, web tabanlı finansal strateji oluşturma ve optimize etme aracı · Python geliştirici</p></div><time>2023</time></li>
-                    <li class="first"><span class="rank">1</span><div><h3>Bulutklinik 23' Hackathon</h3><p>Asimed, yapay zeka destekli ön teşhis, online anamnez ve tedavi takibi · Görüntü işleme ve AI geliştirici</p></div><time>2023</time></li>
-                    <li><span class="rank">3</span><div><h3>Borusan Generative AI Hackathon</h3><p>Araç fiyat tahmin algoritması ve Generative AI teknik asistan</p></div><time>2023</time></li>
-                    <li><span class="rank">3</span><div><h3>Teknofest İzmir Fikir Maratonu</h3><p>Kızılötesi kamera ile toplu ulaşım aracı yoğunluğu tespiti</p></div><time>2023</time></li>
-                    <li class="first"><span class="rank">1</span><div><h3>GSB Genç Hackathon</h3><p>Kamu kurum ve kuruluşlarının web arayüzlerinin geliştirilmesi · Backend ve ML geliştirici</p></div><time>2022</time></li>
-                </ol>
-
-                <h3 class="meta block-title">&gt; SERTİFİKALAR</h3>
-                <ul class="certs">
-                    <li><span>Code Foundation for ROS</span><span class="meta">25 SA · ARALIK 2024</span></li>
-                    <li><span>Python ile Makine Öğrenmesi</span><span class="meta">22,5 SA · KASIM 2023</span></li>
-                    <li><span>İleri Seviye Python Programlama</span><span class="meta">42 SA · HAZİRAN 2022</span></li>
-                    <li><span>Uygulamalı ROS Eğitimi</span><span class="meta">16,5 SA · HAZİRAN 2022</span></li>
-                    <li><span>Bilgisayarlı Görü YOLOv4</span><span class="meta">6,5 SA · NİSAN 2022</span></li>
-                    <li><span>Deneyap, İleri Robotik Eğitimi</span><span class="meta">48 SA · 2021</span></li>
-                    <li><span>Deneyap, Siber Güvenlik Eğitimi</span><span class="meta">32 SA · 2021</span></li>
-                    <li><span>Deneyap, Elektronik Programlama ve IoT</span><span class="meta">32 SA · 2021</span></li>
-                    <li><span>TekYaz, SolidWorks Eğitimi</span><span class="meta">2021</span></li>
-                    <li><span>C++ Programlama</span><span class="meta">10 SA · NİSAN 2020</span></li>
-                </ul>
-            </div>
-        </section>
-
-        <!-- 05 YAZILAR -->
-        <section class="section" id="writing" aria-labelledby="writing-title">
-            <div class="wrap">
-                <header class="section-head">
-                    <p class="meta">05 // YAZILAR</p>
-                    <h2 class="macro-sm" id="writing-title">Yazılar</h2>
-                </header>
-                <p class="lede">Robotik, yapay zeka ve yazılım üzerine notlarımı Medium'da paylaşıyorum.</p>
-
-                <ul class="posts" id="posts">
-                    <li><a href="https://medium.com/@yildiz-kerem" target="_blank" rel="noopener"><time class="meta">15 MART 2024</time><span>ROS (Robot Operating System) başlangıç rehberi</span><span class="meta">ROBOTİK ↗</span></a></li>
-                    <li><a href="https://medium.com/@yildiz-kerem" target="_blank" rel="noopener"><time class="meta">28 ŞUBAT 2024</time><span>Yapay zeka ve robotik: geleceğin kesişim noktası</span><span class="meta">YAPAY ZEKA ↗</span></a></li>
-                    <li><a href="https://medium.com/@yildiz-kerem" target="_blank" rel="noopener"><time class="meta">10 OCAK 2024</time><span>Otonom sualtı araçlarında SLAM uygulamaları</span><span class="meta">OTONOM SİSTEMLER ↗</span></a></li>
-                </ul>
-                <a class="btn" href="https://medium.com/@yildiz-kerem" target="_blank" rel="noopener">[ Medium profili ↗ ]</a>
-            </div>
-        </section>
-
-        <!-- 06 İLETİŞİM -->
-        <section class="section" id="contact" aria-labelledby="contact-title">
-            <div class="wrap">
-                <header class="section-head">
-                    <p class="meta">06 // İLETİŞİM</p>
-                    <h2 class="macro-sm" id="contact-title">İletişim</h2>
-                </header>
-
-                <div class="contact-grid">
-                    <div>
-                        <a class="mail-link" href="mailto:yildizkerem8095@gmail.com">yildizkerem8095<wbr>@gmail.com</a>
-                        <dl class="facts">
-                            <div><dt>Telefon</dt><dd><a href="tel:+905522273219">+90 552 227 3219</a></dd></div>
-                            <div><dt>Konum</dt><dd>İstanbul, Türkiye</dd></div>
-                            <div><dt>Ağ</dt><dd>
-                                <a href="https://github.com/kymanov" target="_blank" rel="noopener">GitHub ↗</a> ·
-                                <a href="https://linkedin.com/in/kerem-y%C4%B1ld%C4%B1z-2686521a3/" target="_blank" rel="noopener">LinkedIn ↗</a> ·
-                                <a href="https://medium.com/@yildiz-kerem" target="_blank" rel="noopener">Medium ↗</a>
-                            </dd></div>
-                        </dl>
-                    </div>
-
-                    <form id="contactForm" class="form" action="https://formspree.io/f/xeqgrvln" method="POST" novalidate>
-                        <input type="hidden" name="form" value="contact">
-                        <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" class="trap" aria-hidden="true">
-                        <label>İsim<input type="text" name="name" autocomplete="name" required></label>
-                        <label>E-posta<input type="email" name="email" autocomplete="email" required></label>
-                        <label>Konu<input type="text" name="subject" required></label>
-                        <label>Mesaj<textarea name="message" rows="5" required></textarea></label>
-                        <button class="btn btn-solid" type="submit">[ Gönder &gt;&gt;&gt; ]</button>
-                        <p class="form-status meta" id="formStatus" role="status" aria-live="polite"></p>
-                    </form>
+            <div class="wrap narrow">
+                <div class="section-head">
+                    <p class="eyebrow" data-reveal>Deneyim</p>
+                    <h2 class="section-title" id="experience-title" data-reveal>Nerelerde çalıştım.</h2>
                 </div>
+
+                <ol class="timeline">
+                    <li data-reveal>
+                        <span class="tl-dot" aria-hidden="true"></span>
+                        <time>2025 — Şimdi</time>
+                        <h3>Yazılım Ekip Lideri</h3>
+                        <p class="org">İTÜ ASTeam</p>
+                        <ul><li>Gömülü kontrol yazılımı geliştirme</li><li>Otonom gemi ve sualtı güdüm yazılımı geliştirme</li><li>Görüntü işleme</li><li>Robot Operating System</li></ul>
+                    </li>
+                    <li data-reveal>
+                        <span class="tl-dot" aria-hidden="true"></span>
+                        <time>2023 — Şimdi</time>
+                        <h3>Elektronik Teknisyeni</h3>
+                        <p class="org">Göcen Otoelektronik, Edirne</p>
+                        <ul><li>Elektronik arıza tespiti</li><li>Otomobil yazılımı geliştirme</li><li>Motor kontrol ünitesi (ECU) onarımı</li></ul>
+                    </li>
+                    <li data-reveal>
+                        <span class="tl-dot" aria-hidden="true"></span>
+                        <time>2024 — 2025</time>
+                        <h3>Elektronik ve Yazılım Ekip Üyesi</h3>
+                        <p class="org">İTÜ ASTeam</p>
+                        <ul><li>Robot Operating System geliştirme</li><li>PCB ve elektronik sistem tasarımı</li><li>Araç simülasyonu geliştirme</li><li>Otonom SLAM algoritması geliştirme</li><li>Lidar ve sonar haritalandırma</li></ul>
+                    </li>
+                    <li data-reveal>
+                        <span class="tl-dot" aria-hidden="true"></span>
+                        <time>2024</time>
+                        <h3>Mentörlük</h3>
+                        <p class="org">İTÜ Seatech Innovators</p>
+                        <ul><li>Robot Operating System</li><li>Jetson Nano, Xavier NX gömülü yazılım</li><li>Görüntü işleme</li><li>Güdüm algoritmaları geliştirme</li></ul>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- ÖDÜLLER -->
+        <section class="section section-alt" id="awards" aria-labelledby="awards-title">
+            <div class="wrap">
+                <div class="section-head">
+                    <p class="eyebrow" data-reveal>Ödüller</p>
+                    <h2 class="section-title" id="awards-title" data-reveal>Sahneye çıktığımız günler.</h2>
+                </div>
+
+                <div class="award-grid" data-stagger>
+                    <article class="award" data-reveal>
+                        <div class="award-media"><img src="assets/images/web/asifinBoga.webp" alt="AsiFin logosu" width="1400" height="1400" loading="lazy"><span class="rank gold">1.</span></div>
+                        <div class="award-body"><time>2024</time><h3>En İyi Girişim, Teknofest Deneyap Girişim Programı</h3><p>AsiFin · Django ve finans yazılımı geliştirici</p></div>
+                    </article>
+                    <article class="award" data-reveal>
+                        <div class="award-media"><img src="assets/images/web/gsb-uluslararasi.webp" alt="GSB Uluslararası Gençlik Bilgilendirme Servisi Hackathonu ödül töreni" width="1080" height="720" loading="lazy"><span class="rank gold">1.</span></div>
+                        <div class="award-body"><time>2024</time><h3>GSB Uluslararası Gençlik Bilgilendirme Servisi Hackathonu</h3><p>SoruCan · LLM ve Django geliştirici</p></div>
+                    </article>
+                    <article class="award" data-reveal>
+                        <div class="award-media"><img src="assets/images/web/wellbased.webp" alt="Edirne Belediyesi Well-Based Hackathon ödül töreni" width="1080" height="1080" loading="lazy"><span class="rank gold">1.</span></div>
+                        <div class="award-body"><time>2024</time><h3>Edirne Belediyesi Well-Based Hackathon</h3><p>Yazılım geliştirici</p></div>
+                    </article>
+                    <article class="award" data-reveal>
+                        <div class="award-media"><img src="assets/images/web/code-of-century.webp" alt="TRK Code of Century Hackathon ödül töreni" width="1080" height="608" loading="lazy"><span class="rank gold">1.</span></div>
+                        <div class="award-body"><time>2023</time><h3>TRK Code of Century Hackathon</h3><p>AsiFin · Python geliştirici</p></div>
+                    </article>
+                    <article class="award" data-reveal>
+                        <div class="award-media"><img src="assets/images/web/bulutklinik.webp" alt="Bulutklinik Hackathon 23 ödül töreni" width="1065" height="709" loading="lazy"><span class="rank gold">1.</span></div>
+                        <div class="award-body"><time>2023</time><h3>Bulutklinik 23' Hackathon</h3><p>Asimed · Görüntü işleme ve AI geliştirici</p></div>
+                    </article>
+                    <article class="award" data-reveal>
+                        <div class="award-media"><img src="assets/images/web/borusan.webp" alt="Borusan Generative AI Hackathon proje görseli" width="460" height="568" loading="lazy"><span class="rank bronze">3.</span></div>
+                        <div class="award-body"><time>2023</time><h3>Borusan Generative AI Hackathon</h3><p>Araç fiyat tahmin algoritması ve Generative AI teknik asistan</p></div>
+                    </article>
+                    <article class="award" data-reveal>
+                        <div class="award-media"><img src="assets/images/web/fikir-maratonu.webp" alt="Teknofest İzmir Fikir Maratonu ödül töreni" width="1080" height="1079" loading="lazy"><span class="rank bronze">3.</span></div>
+                        <div class="award-body"><time>2023</time><h3>Teknofest İzmir Fikir Maratonu</h3><p>Kızılötesi kamera ile toplu ulaşım aracı yoğunluğu tespiti</p></div>
+                    </article>
+                    <article class="award" data-reveal>
+                        <div class="award-media"><img src="assets/images/web/genc-hackathon.webp" alt="GSB Genç Hackathon ödül töreni" width="1080" height="608" loading="lazy"><span class="rank gold">1.</span></div>
+                        <div class="award-body"><time>2022</time><h3>GSB Genç Hackathon</h3><p>Kamu kurumlarının web arayüzlerinin geliştirilmesi · Backend ve ML geliştirici</p></div>
+                    </article>
+                </div>
+
+                <h3 class="sub-title" data-reveal>Sertifikalar</h3>
+                <ul class="certs" data-stagger>
+                    <li data-reveal>Code Foundation for ROS <span>25 sa · Aralık 2024</span></li>
+                    <li data-reveal>Python ile Makine Öğrenmesi <span>22,5 sa · Kasım 2023</span></li>
+                    <li data-reveal>İleri Seviye Python Programlama <span>42 sa · Haziran 2022</span></li>
+                    <li data-reveal>Uygulamalı ROS Eğitimi <span>16,5 sa · Haziran 2022</span></li>
+                    <li data-reveal>Bilgisayarlı Görü YOLOv4 <span>6,5 sa · Nisan 2022</span></li>
+                    <li data-reveal>Deneyap, İleri Robotik Eğitimi <span>48 sa · 2021</span></li>
+                    <li data-reveal>Deneyap, Siber Güvenlik Eğitimi <span>32 sa · 2021</span></li>
+                    <li data-reveal>Deneyap, Elektronik Programlama ve IoT <span>32 sa · 2021</span></li>
+                    <li data-reveal>TekYaz, SolidWorks Eğitimi <span>2021</span></li>
+                    <li data-reveal>C++ Programlama <span>10 sa · Nisan 2020</span></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- YAZILAR -->
+        <section class="section" id="writing" aria-labelledby="writing-title">
+            <div class="wrap narrow">
+                <div class="section-head">
+                    <p class="eyebrow" data-reveal>Yazılar</p>
+                    <h2 class="section-title" id="writing-title" data-reveal>Medium'da yazdıklarım.</h2>
+                </div>
+                <ul class="posts" id="posts" data-stagger>
+                    <li data-reveal><a href="https://medium.com/@yildiz-kerem" target="_blank" rel="noopener"><time>15 Mart 2024</time><span class="post-title">ROS (Robot Operating System) başlangıç rehberi</span><span class="post-arrow" aria-hidden="true">↗</span></a></li>
+                    <li data-reveal><a href="https://medium.com/@yildiz-kerem" target="_blank" rel="noopener"><time>28 Şubat 2024</time><span class="post-title">Yapay zeka ve robotik: geleceğin kesişim noktası</span><span class="post-arrow" aria-hidden="true">↗</span></a></li>
+                    <li data-reveal><a href="https://medium.com/@yildiz-kerem" target="_blank" rel="noopener"><time>10 Ocak 2024</time><span class="post-title">Otonom sualtı araçlarında SLAM uygulamaları</span><span class="post-arrow" aria-hidden="true">↗</span></a></li>
+                </ul>
+                <a class="btn btn-ghost" href="https://medium.com/@yildiz-kerem" target="_blank" rel="noopener" data-reveal>Medium profilim <span aria-hidden="true">↗</span></a>
+            </div>
+        </section>
+
+        <!-- İLETİŞİM -->
+        <section class="section contact" id="contact" aria-labelledby="contact-title">
+            <div class="wrap contact-grid">
+                <div class="contact-text">
+                    <p class="eyebrow" data-reveal>İletişim</p>
+                    <h2 class="section-title" id="contact-title" data-reveal>Bir proje, arıza ya da fikir için yaz.</h2>
+                    <a class="mail-link" href="mailto:yildizkerem8095@gmail.com" data-reveal>yildizkerem8095@gmail.com</a>
+                    <dl class="facts" data-reveal>
+                        <div><dt>Telefon</dt><dd><a href="tel:+905522273219">+90 552 227 3219</a></dd></div>
+                        <div><dt>Konum</dt><dd>İstanbul, Türkiye</dd></div>
+                    </dl>
+                    <div class="socials" data-reveal>
+                        <a href="https://github.com/kymanov" target="_blank" rel="noopener">GitHub</a>
+                        <a href="https://linkedin.com/in/kerem-y%C4%B1ld%C4%B1z-2686521a3/" target="_blank" rel="noopener">LinkedIn</a>
+                        <a href="https://medium.com/@yildiz-kerem" target="_blank" rel="noopener">Medium</a>
+                    </div>
+                </div>
+
+                <form id="contactForm" class="form" action="https://formspree.io/f/xeqgrvln" method="POST" novalidate data-reveal style="--d: 0.15s">
+                    <input type="hidden" name="form" value="contact">
+                    <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" class="trap" aria-hidden="true">
+                    <label>İsim<input type="text" name="name" autocomplete="name" required></label>
+                    <label>E-posta<input type="email" name="email" autocomplete="email" required></label>
+                    <label>Konu<input type="text" name="subject" required></label>
+                    <label>Mesaj<textarea name="message" rows="5" required></textarea></label>
+                    <button class="btn btn-primary" type="submit">Gönder <span aria-hidden="true">→</span></button>
+                    <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+                </form>
             </div>
         </section>
     </main>
 
     <footer class="site-footer">
         <div class="wrap footer-row">
-            <span class="meta">© 2026 KEREM YILDIZ</span>
-            <a class="meta" href="#top">YUKARI ↑</a>
+            <span>© 2026 Kerem Yıldız</span>
+            <a href="#top">Yukarı ↑</a>
         </div>
     </footer>
 
     <dialog class="modal" id="projectModal" aria-labelledby="modalTitle">
-        <div class="modal-bar">
-            <span class="meta">PROJE DOSYASI</span>
-            <button class="btn btn-sm" type="button" id="modalClose" aria-label="Kapat">[ X ]</button>
-        </div>
+        <button class="modal-close" type="button" id="modalClose" aria-label="Kapat">×</button>
         <div class="modal-body" id="modalContent"></div>
     </dialog>
 
     <script src="js/project-data.js"></script>
-    <script src="js/portfolio.js"></script>
+    <script src="js/site.js"></script>
 </body>
 </html>
