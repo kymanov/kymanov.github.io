@@ -1,4 +1,4 @@
-/* /kymanov/ portfolyo sayfası: menü, filtre, proje penceresi, yazılar, iletişim formu */
+/* Portfolyo ana sayfası: menü, filtre, proje penceresi, yazılar, iletişim formu */
 
 (function () {
     'use strict';
@@ -18,7 +18,7 @@
     });
 
     // Aktif bölümü menüde işaretle
-    const links = [...nav.querySelectorAll('a')];
+    const links = [...nav.querySelectorAll('a[href^="#"]')];
     const sections = links.map((a) => document.querySelector(a.getAttribute('href')));
     if ('IntersectionObserver' in window) {
         const io = new IntersectionObserver((entries) => {
