@@ -243,7 +243,7 @@ def motor_page(m):
     </main>
 
     <footer class="m-foot">
-        <div class="wrap">Atölye Motor Bilgi Kartları · Motor {esc(no)}</div>
+        <div class="wrap foot-row"><span>Ege Üniversitesi Otomotiv Teknolojisi Bölümü</span><span>Claude, Güz Arat Başkurt ve kymanov</span></div>
     </footer>
 </body>
 </html>
@@ -283,7 +283,7 @@ def index_page(motors):
     </main>
 
     <footer class="m-foot">
-        <div class="wrap">Atölye Motor Bilgi Kartları · {len(motors)} motor</div>
+        <div class="wrap foot-row"><span>Ege Üniversitesi Otomotiv Teknolojisi Bölümü</span><span>Claude, Güz Arat Başkurt ve kymanov</span></div>
     </footer>
 </body>
 </html>
@@ -300,7 +300,9 @@ def main(pdfs):
         out = MOTOR_DIR / m["no"]
         out.mkdir(exist_ok=True)
         (out / "index.html").write_text(motor_page(m), encoding="utf-8")
-        shutil.copyfile(pdf, MOTOR_DIR / "pdf" / f"motor-{m['no']}.pdf")
+        dest = MOTOR_DIR / "pdf" / f"motor-{m['no']}.pdf"
+        if not (dest.exists() and dest.samefile(pdf)):
+            shutil.copyfile(pdf, dest)
         print(f"Motor {m['no']}: {m['kimlik']['title']} -> {SITE}/motor/{m['no']}/")
     data = dict(sorted(data.items()))
     data_file.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
