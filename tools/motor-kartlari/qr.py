@@ -5,7 +5,7 @@ Kullanım:
     python3 tools/motor-kartlari/qr.py CIKTI_KLASORU
 
 Çıktı:
-    motor-NN.svg / motor-NN.png  her motorun sayfasına giden karekod
+    <motor-adi>.svg / .png  her motorun sayfasına giden karekod
     etiketler.html               A4'e 9 etiket, tarayıcıdan yazdırılabilir
 
 Gerekenler: pip install qrcode pillow
@@ -23,8 +23,8 @@ ROOT = Path(__file__).resolve().parents[2]
 SITE = "https://kymanov.github.io"
 
 
-def url_for(no):
-    return f"{SITE}/motor/{no}/"
+def url_for(slug):
+    return f"{SITE}/motor/{slug}/"
 
 
 def make_qr(data):
@@ -57,11 +57,12 @@ def main(out):
     data = json.loads((ROOT / "motor" / "motorlar.json").read_text(encoding="utf-8"))
     labels = []
     for no, m in data.items():
-        url = url_for(no)
+        slug = m["slug"]
+        url = url_for(slug)
         qr = make_qr(url)
-        qr.make_image(image_factory=qrcode.image.svg.SvgPathImage).save(out / f"motor-{no}.svg")
+        qr.make_image(image_factory=qrcode.image.svg.SvgPathImage).save(out / f"{slug}.svg")
         qr.box_size = 30
-        qr.make_image(fill_color="black", back_color="white").save(out / f"motor-{no}.png")
+        qr.make_image(fill_color="black", back_color="white").save(out / f"{slug}.png")
         svg = qr.make_image(image_factory=qrcode.image.svg.SvgPathImage).to_string(encoding="unicode")
         code = next((b["value"] for b in m["kimlik"]["boxes"] if b["label"] in ("MOTOR KODU", "SINIF")), "")
         labels.append(f"""<div class="label">

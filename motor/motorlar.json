@@ -1,6 +1,7 @@
 {
  "01": {
   "no": "01",
+  "slug": "chrysler-3-5-v6-ho",
   "kimlik": {
    "title": "Chrysler 3.5L V6 HO",
    "subtitle": "Kimlik ve kullanıldığı araçlar",
@@ -200,6 +201,7 @@
  },
  "02": {
   "no": "02",
+  "slug": "toyota-1ad-ftv-2-0-d-4d",
   "kimlik": {
    "title": "Toyota 1AD-FTV 2.0 D-4D",
    "subtitle": "Kimlik ve kullanıldığı araçlar",
@@ -400,6 +402,7 @@
  },
  "03": {
   "no": "03",
+  "slug": "chrysler-2-7-v6-dohc",
   "kimlik": {
    "title": "Chrysler 2.7L V6 DOHC",
    "subtitle": "Kimlik ve kullanıldığı araçlar",
@@ -605,6 +608,7 @@
  },
  "04": {
   "no": "04",
+  "slug": "fiat-abarth-palio-s1600",
   "kimlik": {
    "title": "Fiat Abarth Palio S1600",
    "subtitle": "Kimlik ve kullanıldığı araçlar",
@@ -789,6 +793,7 @@
  },
  "05": {
   "no": "05",
+  "slug": "alfa-romeo-3-2-jts-v6",
   "kimlik": {
    "title": "Alfa Romeo 3.2 JTS V6",
    "subtitle": "Kimlik ve kullanıldığı araçlar",
@@ -983,6 +988,7 @@
  },
  "06": {
   "no": "06",
+  "slug": "vm-motori-2-5-crd",
   "kimlik": {
    "title": "VM Motori 2.5 CRD",
    "subtitle": "Kimlik ve kullanıldığı araçlar",

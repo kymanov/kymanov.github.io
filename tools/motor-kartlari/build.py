@@ -5,8 +5,9 @@ Kullanım:
     python3 tools/motor-kartlari/build.py kart1.pdf kart2.pdf ...
 
 Her PDF 4 kartlık bir motor kartıdır (MOTOR NN · KART k / 4). Betik:
-  - motor/NN/index.html sayfasını yazar,
-  - PDF'i motor/pdf/motor-NN.pdf olarak kopyalar,
+  - motor/<motor-adi>/index.html sayfasını yazar (adres motor adından üretilir, örn. alfa-romeo-3-2-jts-v6),
+  - motor/NN/ adresini yeni adrese yönlendiren küçük bir sayfa yazar,
+  - PDF'i motor/pdf/<motor-adi>.pdf olarak kopyalar,
   - motor/ altındaki mevcut motorları tarayıp motor/index.html listesini yeniden yazar.
 
 Gerekenler: poppler-utils (pdftotext).
@@ -30,6 +31,32 @@ FOOTER_RE = re.compile(r"^Atölye Motor Bilgi Kartları\s{2,}")
 
 def esc(s):
     return html.escape(s, quote=True)
+
+
+TR = str.maketrans("çğıöşüÇĞİÖŞÜ", "cgiosuCGIOSU")
+
+
+def slugify(title):
+    """'Chrysler 3.5L V6 HO' -> 'chrysler-3-5-v6-ho' (adres olarak motor adı)."""
+    t = title.translate(TR).lower()
+    t = re.sub(r"(\d)\.(\d)l?\b", r"\1-\2", t)
+    return re.sub(r"[^a-z0-9]+", "-", t).strip("-")
+
+
+def redirect_page(slug):
+    return f"""<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sayfa taşındı</title>
+    <meta name="robots" content="noindex">
+    <link rel="canonical" href="{SITE}/motor/{slug}/">
+    <meta http-equiv="refresh" content="0; url=/motor/{slug}/">
+</head>
+<body><p>Sayfa taşındı: <a href="/motor/{slug}/">{SITE}/motor/{slug}/</a></p></body>
+</html>
+"""
 
 
 def split_cols(line):
@@ -136,9 +163,11 @@ def parse_card4(lines):
 
 def parse_pdf(pdf):
     number, cards = read_cards(pdf)
+    kimlik = parse_card1(cards[1])
     return {
         "no": number,
-        "kimlik": parse_card1(cards[1]),
+        "slug": slugify(kimlik["title"]),
+        "kimlik": kimlik,
         "teknik": parse_card2(cards[2]),
         "ozellik": parse_card3(cards[3]),
         "bakim": parse_card4(cards[4]),
@@ -237,13 +266,13 @@ def motor_page(m):
         </section>
 
         <div class="actions">
-            <a class="btn" href="../pdf/motor-{esc(no)}.pdf" download>Kartları PDF olarak indir</a>
+            <a class="btn" href="../pdf/{esc(m['slug'])}.pdf" download>Kartları PDF olarak indir</a>
             <a class="btn btn-ghost" href="../">Tüm motorlar</a>
         </div>
     </main>
 
     <footer class="m-foot">
-        <div class="wrap">Atölye Motor Bilgi Kartları · Motor {esc(no)}</div>
+        <div class="wrap foot-row"><span>Ege Üniversitesi Otomotiv Teknolojisi Bölümü</span><span>Claude, Güz Arat Başkurt ve kymanov</span></div>
     </footer>
 </body>
 </html>
@@ -263,7 +292,7 @@ def index_page(motors):
     for m in motors:
         code = box_value(m, "MOTOR KODU", "SINIF")
         facts = " · ".join(v for v in [box_value(m, "HACİM"), box_value(m, "GÜÇ")] if v)
-        cards.append(f"""            <a class="motor" href="{esc(m['no'])}/">
+        cards.append(f"""            <a class="motor" href="{esc(m['slug'])}/">
                 <span class="m-no">Motor {esc(m['no'])}</span>
                 <strong>{esc(m['kimlik']['title'])}</strong>
                 <span class="m-code">{esc(code)}</span>
@@ -283,7 +312,7 @@ def index_page(motors):
     </main>
 
     <footer class="m-foot">
-        <div class="wrap">Atölye Motor Bilgi Kartları · {len(motors)} motor</div>
+        <div class="wrap foot-row"><span>Ege Üniversitesi Otomotiv Teknolojisi Bölümü</span><span>Claude, Güz Arat Başkurt ve kymanov</span></div>
     </footer>
 </body>
 </html>
@@ -297,11 +326,21 @@ def main(pdfs):
     for pdf in map(Path, pdfs):
         m = parse_pdf(pdf)
         data[m["no"]] = m
-        out = MOTOR_DIR / m["no"]
+        out = MOTOR_DIR / m["slug"]
         out.mkdir(exist_ok=True)
         (out / "index.html").write_text(motor_page(m), encoding="utf-8")
-        shutil.copyfile(pdf, MOTOR_DIR / "pdf" / f"motor-{m['no']}.pdf")
-        print(f"Motor {m['no']}: {m['kimlik']['title']} -> {SITE}/motor/{m['no']}/")
+        # Eski numaralı adres (/motor/05/) yeni adrese yönlenir
+        (MOTOR_DIR / m["no"]).mkdir(exist_ok=True)
+        (MOTOR_DIR / m["no"] / "index.html").write_text(redirect_page(m["slug"]), encoding="utf-8")
+        dest = MOTOR_DIR / "pdf" / f"{m['slug']}.pdf"
+        if not (dest.exists() and dest.samefile(pdf)):
+            if pdf.resolve().parent == (MOTOR_DIR / "pdf").resolve():
+                pdf.rename(dest)  # klasördeki eski adlı PDF'i yeni ada taşı
+            else:
+                shutil.copyfile(pdf, dest)
+        print(f"Motor {m['no']}: {m['kimlik']['title']} -> {SITE}/motor/{m['slug']}/")
+    for m in data.values():
+        m.setdefault("slug", slugify(m["kimlik"]["title"]))
     data = dict(sorted(data.items()))
     data_file.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
     (MOTOR_DIR / "index.html").write_text(index_page(list(data.values())), encoding="utf-8")

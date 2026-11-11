@@ -109,3 +109,7 @@
     .newsletter-card { flex-basis: auto; }
     .newsletter-intro h1 { font-size: 2.2rem; }
 }
+
+/* Alt bilgi: solda bölüm, sağda katkıda bulunanlar */
+.footer-split { display: flex; justify-content: space-between; gap: 8px 24px; flex-wrap: wrap; text-align: left; }
+.footer-split p { margin: 0; }

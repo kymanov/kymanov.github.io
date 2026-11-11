@@ -105,3 +105,5 @@ main.wrap { padding-top: 18px; padding-bottom: 32px; }
     .tabs, .actions, .back { display: none; }
     .card { break-inside: avoid; }
 }
+
+.foot-row { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 4px 20px; }
