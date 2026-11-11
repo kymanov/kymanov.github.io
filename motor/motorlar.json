@@ -1173,5 +1173,401 @@
     }
    ]
   }
+ },
+ "07": {
+  "no": "07",
+  "slug": "toyota-1nd-tv-1-4-d-4d",
+  "kimlik": {
+   "title": "Toyota 1ND-TV 1.4 D-4D",
+   "subtitle": "Kimlik ve kullanıldığı araçlar",
+   "boxes": [
+    {
+     "label": "MOTOR KODU",
+     "value": "1ND-TV"
+    },
+    {
+     "label": "HACİM",
+     "value": "1364 cm³"
+    },
+    {
+     "label": "ÜRETİCİ",
+     "value": "Toyota"
+    },
+    {
+     "label": "GÜÇ",
+     "value": "68–90 BG"
+    }
+   ],
+   "sections": [
+    {
+     "title": "KULLANILDIĞI ARAÇLAR (1.4 D-4D)",
+     "rows": [
+      {
+       "k": "Toyota Yaris",
+       "v": "2002 →",
+       "sub": []
+      },
+      {
+       "k": "Toyota Corolla",
+       "v": "2004–2010",
+       "sub": []
+      },
+      {
+       "k": "Toyota Auris",
+       "v": "2007–2018",
+       "sub": []
+      },
+      {
+       "k": "Toyota iQ",
+       "v": "2009–2012",
+       "sub": []
+      },
+      {
+       "k": "Mini One D (R50)",
+       "v": "2004–2006",
+       "sub": []
+      }
+     ]
+    },
+    {
+     "title": "TANIMA",
+     "rows": [
+      {
+       "k": "Pazar adı",
+       "v": "1.4 D-4D",
+       "sub": []
+      },
+      {
+       "k": "Üretim yeri",
+       "v": "Japonya · 2010'dan itibaren TMIP",
+       "sub": []
+      },
+      {
+       "k": "Motor ailesi",
+       "v": "D-4D (Motor 02 ile aynı aile)",
+       "sub": []
+      }
+     ]
+    }
+   ]
+  },
+  "teknik": {
+   "title": "Teknik Veriler",
+   "subtitle": "Toyota 1ND-TV · 1.4 D-4D dizel",
+   "rows": [
+    {
+     "k": "Silindir dizilimi",
+     "v": "Sıralı 4 silindir",
+     "sub": []
+    },
+    {
+     "k": "Hacim",
+     "v": "1364 cm³ (1.4 L)",
+     "sub": []
+    },
+    {
+     "k": "Çap × Strok",
+     "v": "73,0 × 81,5 mm",
+     "sub": []
+    },
+    {
+     "k": "Blok",
+     "v": "Alüminyum",
+     "sub": []
+    },
+    {
+     "k": "Supap düzeni",
+     "v": "Üstten tek eksantrik (SOHC)",
+     "sub": [
+      "2 supap/silindir · toplam 8"
+     ]
+    },
+    {
+     "k": "Sıkıştırma oranı",
+     "v": "16,0–18,5 : 1 (sürüme göre)",
+     "sub": []
+    },
+    {
+     "k": "Maksimum güç",
+     "v": "68–90 BG (50–66 kW)",
+     "sub": [
+      "örnek: 90 BG @ 3800 d/d"
+     ]
+    },
+    {
+     "k": "Maksimum tork",
+     "v": "170–205 Nm",
+     "sub": [
+      "örnek: 190 Nm @ 1800 d/d"
+     ]
+    },
+    {
+     "k": "Yakıt sistemi",
+     "v": "Common rail, 1600 bar",
+     "sub": [
+      "6 delikli enjektörler"
+     ]
+    },
+    {
+     "k": "Aşırı doldurma",
+     "v": "Turbo + ara soğutucu",
+     "sub": [
+      "sabit ya da değişken geometrili"
+     ]
+    },
+    {
+     "k": "Eksantrik tahriki",
+     "v": "Zincir",
+     "sub": []
+    }
+   ]
+  },
+  "ozellik": {
+   "title": "Öne Çıkan Özellikler",
+   "subtitle": "Bu motoru farklı kılan teknik çözümler",
+   "items": [
+    {
+     "n": "1",
+     "title": "Toyota'nın ilk alüminyum bloklu dizeli",
+     "text": "Blok alüminyumdan dökülmüştür; Toyota'nın bu malzemeyi kullandığı ilk dizel motordur."
+    },
+    {
+     "n": "2",
+     "title": "8 supaplı sade yapı",
+     "text": "Çoğu D-4D motoru 16 supaplıdır. 1ND-TV ise silindir başına 2 supap ve tek eksantrikle bu ailenin istisnalarındandır."
+    },
+    {
+     "n": "3",
+     "title": "Common rail enjeksiyon",
+     "text": "Yakıt 1600 bar basınçla, 6 delikli enjektörler aracılığıyla doğrudan silindire püskürtülür."
+    },
+    {
+     "n": "4",
+     "title": "Turbo ve ara soğutucu",
+     "text": "Sürüme göre sabit ya da değişken geometrili (VGT) turbo kullanılır; ikisinde de ara soğutucu vardır. VGT turbo gecikmeyi azaltır."
+    }
+   ]
+  },
+  "bakim": {
+   "title": "Bakım ve Dikkat",
+   "subtitle": "Serviste bilinmesi gerekenler",
+   "callout": {
+    "label": "BİLİNEN SORUN",
+    "title": "Artan yağ tüketimi",
+    "sub": "",
+    "text": "Yağ tüketiminde belirgin artış görülebilir. Çoğunlukla sıkışan piston segmanlarından, bazen de turbo arızasından kaynaklanır."
+   },
+   "items": [
+    {
+     "title": "Karter havalandırması",
+     "text": "Havalandırma sistemi tıkanırsa yağ, keçelerin altından sızmaya başlar."
+    },
+    {
+     "title": "Zincir uzaması",
+     "text": "Zincir dayanıklıdır ama genellikle 250.000 km'den sonra uzayabilir. Başlıca belirtisi motorun zor çalışmasıdır."
+    },
+    {
+     "title": "Motor yağı: 0W-30 / 5W-30, ≈ 4,8 L",
+     "text": "Yağ kalitesi ve düzenli bakım, motor ömrünü doğrudan etkiler."
+    }
+   ]
+  }
+ },
+ "08": {
+  "no": "08",
+  "slug": "vw-2-5-r5-tdi-pd",
+  "kimlik": {
+   "title": "VW 2.5 R5 TDI PD",
+   "subtitle": "Kimlik ve kullanıldığı araçlar",
+   "boxes": [
+    {
+     "label": "MOTOR AİLESİ",
+     "value": "R5 TDI PD"
+    },
+    {
+     "label": "HACİM",
+     "value": "2461 cm³"
+    },
+    {
+     "label": "ÜRETİCİ",
+     "value": "Volkswagen"
+    },
+    {
+     "label": "GÜÇ",
+     "value": "131–174 BG"
+    }
+   ],
+   "sections": [
+    {
+     "title": "KULLANILDIĞI ARAÇLAR",
+     "rows": [
+      {
+       "k": "VW Transporter / Multivan (T5)",
+       "v": "2003–2009",
+       "sub": []
+      },
+      {
+       "k": "VW Touareg (7L)",
+       "v": "2003–2010",
+       "sub": []
+      },
+      {
+       "k": "T5 motor kodları",
+       "v": "AXD · BNZ · AXE · BPC · BLJ",
+       "sub": []
+      },
+      {
+       "k": "Touareg motor kodları",
+       "v": "BAC · BLK · BPD · BPE",
+       "sub": []
+      }
+     ]
+    },
+    {
+     "title": "MOTOR ETİKETİ",
+     "rows": [
+      {
+       "k": "Silindir kapağı dökümü",
+       "v": "070 103 373 A",
+       "sub": []
+      },
+      {
+       "k": "'070' parça ön eki",
+       "v": "VW 2.5 L 5 silindirli dizel",
+       "sub": []
+      },
+      {
+       "k": "Döküm logosu",
+       "v": "VW · Audi · Germany",
+       "sub": []
+      }
+     ]
+    }
+   ]
+  },
+  "teknik": {
+   "title": "Teknik Veriler",
+   "subtitle": "Volkswagen 2.5 R5 TDI · pompa-enjektörlü dizel",
+   "rows": [
+    {
+     "k": "Silindir dizilimi",
+     "v": "Sıralı 5 silindir",
+     "sub": []
+    },
+    {
+     "k": "Hacim",
+     "v": "2461 cm³ (2.5 L)",
+     "sub": []
+    },
+    {
+     "k": "Çap × Strok",
+     "v": "81,0 × 95,5 mm",
+     "sub": []
+    },
+    {
+     "k": "Blok / Silindir kapağı",
+     "v": "Alüminyum / Alüminyum",
+     "sub": []
+    },
+    {
+     "k": "Supap düzeni",
+     "v": "Üstten tek eksantrik (SOHC)",
+     "sub": [
+      "2 supap/silindir · toplam 10"
+     ]
+    },
+    {
+     "k": "Sıkıştırma oranı",
+     "v": "18,0 : 1",
+     "sub": []
+    },
+    {
+     "k": "Maksimum güç",
+     "v": "131–174 BG (96–128 kW)",
+     "sub": [
+      "174 BG @ 3500 d/d"
+     ]
+    },
+    {
+     "k": "Maksimum tork",
+     "v": "400 Nm @ 2000 d/d",
+     "sub": [
+      "174 BG'lik sürümde"
+     ]
+    },
+    {
+     "k": "Yakıt sistemi",
+     "v": "Pompa-enjektör (Bosch PD)",
+     "sub": []
+    },
+    {
+     "k": "Aşırı doldurma",
+     "v": "Değişken geometrili turbo",
+     "sub": [
+      "ara soğutuculu"
+     ]
+    },
+    {
+     "k": "Eksantrik tahriki",
+     "v": "Dişli çarklar (volan tarafında)",
+     "sub": []
+    },
+    {
+     "k": "Ateşleme sırası",
+     "v": "1–2–4–5–3",
+     "sub": []
+    }
+   ]
+  },
+  "ozellik": {
+   "title": "Öne Çıkan Özellikler",
+   "subtitle": "Bu motoru farklı kılan teknik çözümler",
+   "items": [
+    {
+     "n": "1",
+     "title": "Kayış da zincir de yok",
+     "text": "Eksantrik ve yardımcı üniteler, motorun volan tarafındaki on bir helisel dişliyle döner. Değiştirilmesi gereken bir triger kayışı yoktur."
+    },
+    {
+     "n": "2",
+     "title": "Pompa-enjektör (Pumpe-Düse)",
+     "text": "Her silindirin enjektörü kendi yüksek basınç pompasıyla birleşiktir ve eksantrikteki ek bir kamla çalışır. Common rail'deki gibi ortak bir basınç hattı yoktur."
+    },
+    {
+     "n": "3",
+     "title": "Alüminyum blok, kaplamalı silindirler",
+     "text": "Blok alüminyumdan dökülmüş, silindir yüzeyleri plazma kaplamalıdır. Dövme çelik krank mili 6 ana yatakla taşınır."
+    },
+    {
+     "n": "4",
+     "title": "'070' parça kodu",
+     "text": "VW parça numaralarında '070' ön eki 2.5 L 5 silindirli dizeli gösterir. Bu motordaki silindir kapağının dökümünde 070 103 373 A yazar."
+    }
+   ]
+  },
+  "bakim": {
+   "title": "Bakım ve Dikkat",
+   "subtitle": "Serviste bilinmesi gerekenler",
+   "callout": {
+    "label": "BİLİNEN SORUN",
+    "title": "Eksantrik ve itici aşınması",
+    "sub": "",
+    "text": "Yanlış motor yağı eksantrik milini ve supap iticilerini aşındırır. Yalnızca VW onaylı yağ kullanılmalı; DPF'li motorlarda VW 507.00."
+   },
+   "items": [
+    {
+     "title": "Devirdaim pompası",
+     "text": "Contası kaçırırsa soğutma suyu kartere karışır; yağ seviyesinin artması belirtidir."
+    },
+    {
+     "title": "Alternatör ve klima kaplinleri",
+     "text": "Kayış olmadığından bu üniteler lastik kaplinlerle döner; kaplinler ≈ 150.000 km'de değişmeli."
+    },
+    {
+     "title": "Enjektör yuvaları",
+     "text": "Yuva aşınması ve O-ring arızası mazotun yağa karışmasına ya da zor çalışmaya yol açar."
+    }
+   ]
+  }
  }
 }

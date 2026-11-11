@@ -64,7 +64,7 @@ def main(out):
         qr.box_size = 30
         qr.make_image(fill_color="black", back_color="white").save(out / f"{slug}.png")
         svg = qr.make_image(image_factory=qrcode.image.svg.SvgPathImage).to_string(encoding="unicode")
-        code = next((b["value"] for b in m["kimlik"]["boxes"] if b["label"] in ("MOTOR KODU", "SINIF")), "")
+        code = next((b["value"] for b in m["kimlik"]["boxes"] if b["label"] in ("MOTOR KODU", "MOTOR AİLESİ", "SINIF")), "")
         labels.append(f"""<div class="label">
   <div class="top"><div class="no">Motor {html.escape(no)}</div><div class="name">{html.escape(m['kimlik']['title'])}</div><div class="code">{html.escape(code)}</div></div>
   <div class="qr">{svg}</div>

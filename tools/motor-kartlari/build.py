@@ -290,7 +290,7 @@ def box_value(m, *labels):
 def index_page(motors):
     cards = []
     for m in motors:
-        code = box_value(m, "MOTOR KODU", "SINIF")
+        code = box_value(m, "MOTOR KODU", "MOTOR AİLESİ", "SINIF")
         facts = " · ".join(v for v in [box_value(m, "HACİM"), box_value(m, "GÜÇ")] if v)
         cards.append(f"""            <a class="motor" href="{esc(m['slug'])}/">
                 <span class="m-no">Motor {esc(m['no'])}</span>
