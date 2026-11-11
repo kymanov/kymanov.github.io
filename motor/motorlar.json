@@ -1,0 +1,1171 @@
+{
+ "01": {
+  "no": "01",
+  "kimlik": {
+   "title": "Chrysler 3.5L V6 HO",
+   "subtitle": "Kimlik ve kullanıldığı araçlar",
+   "boxes": [
+    {
+     "label": "MOTOR KODU",
+     "value": "EGG"
+    },
+    {
+     "label": "HACİM",
+     "value": "3518 cm³"
+    },
+    {
+     "label": "ÜRETİCİ",
+     "value": "Chrysler"
+    },
+    {
+     "label": "GÜÇ",
+     "value": "250–257 BG"
+    }
+   ],
+   "sections": [
+    {
+     "title": "KULLANILDIĞI ARAÇLAR (LH PLATFORMU)",
+     "rows": [
+      {
+       "k": "Chrysler 300M",
+       "v": "1999–2004",
+       "sub": []
+      },
+      {
+       "k": "Chrysler LHS",
+       "v": "1999–2001",
+       "sub": []
+      },
+      {
+       "k": "Dodge Intrepid R/T · SXT",
+       "v": "2000–2004",
+       "sub": []
+      },
+      {
+       "k": "Chrysler Concorde Limited",
+       "v": "2002–2004",
+       "sub": []
+      },
+      {
+       "k": "Plymouth / Chrysler Prowler",
+       "v": "1999–2002",
+       "sub": []
+      }
+     ]
+    },
+    {
+     "title": "MOTOR ETİKETİ",
+     "rows": [
+      {
+       "k": "Parça no",
+       "v": "P04892087AA",
+       "sub": []
+      },
+      {
+       "k": "Uygulama",
+       "v": "35LH (3.5 L · LH sedan)",
+       "sub": []
+      },
+      {
+       "k": "Seri no",
+       "v": "TPTE1334903911",
+       "sub": []
+      }
+     ]
+    }
+   ]
+  },
+  "teknik": {
+   "title": "Teknik Veriler",
+   "subtitle": "Chrysler 3.5L V6 24V High Output · EGG",
+   "rows": [
+    {
+     "k": "Silindir dizilimi",
+     "v": "60° V6",
+     "sub": []
+    },
+    {
+     "k": "Hacim",
+     "v": "3518 cm³ (3.5 L)",
+     "sub": []
+    },
+    {
+     "k": "Çap × Strok",
+     "v": "96,0 × 81,0 mm",
+     "sub": []
+    },
+    {
+     "k": "Blok / Silindir kapağı",
+     "v": "Alüminyum / Alüminyum",
+     "sub": []
+    },
+    {
+     "k": "Supap düzeni",
+     "v": "Üstten tek eksantrik (SOHC)",
+     "sub": [
+      "4 supap/silindir · toplam 24"
+     ]
+    },
+    {
+     "k": "Sıkıştırma oranı",
+     "v": "≈ 10 : 1",
+     "sub": []
+    },
+    {
+     "k": "Maksimum güç",
+     "v": "250–257 BG (184–189 kW)",
+     "sub": [
+      "@ ≈ 6500 d/d"
+     ]
+    },
+    {
+     "k": "Maksimum tork",
+     "v": "339 Nm (250 lb·ft)",
+     "sub": [
+      "@ ≈ 4000 d/d"
+     ]
+    },
+    {
+     "k": "Yakıt sistemi",
+     "v": "Sıralı çok noktadan enjeksiyon",
+     "sub": []
+    },
+    {
+     "k": "Ateşleme",
+     "v": "Bujiye doğrudan bobin (6 bobin)",
+     "sub": []
+    },
+    {
+     "k": "Ateşleme sırası",
+     "v": "1–2–3–4–5–6",
+     "sub": []
+    },
+    {
+     "k": "Eksantrik tahriki",
+     "v": "Triger kayışı",
+     "sub": []
+    }
+   ]
+  },
+  "ozellik": {
+   "title": "Öne Çıkan Özellikler",
+   "subtitle": "Bu motoru farklı kılan teknik çözümler",
+   "items": [
+    {
+     "n": "1",
+     "title": "Tamamen alüminyum yapı",
+     "text": "1998'deki yeniden tasarımla blok da alüminyum oldu; ilk nesil 3.5 L (1993–97) dökme demir bloklu idi. Sonuç: daha hafif bir motor."
+    },
+    {
+     "n": "2",
+     "title": "Çift odalı emme manifoldu",
+     "text": "İki ayrı emme odası bir geçiş (crossover) valfiyle birbirine bağlanır. Valf devire göre açılıp kapanarak alt ve orta devirde torku artırır."
+    },
+    {
+     "n": "3",
+     "title": "Bujiye doğrudan bobin",
+     "text": "Her silindirin bujisinin üstünde kendi bobini vardır. Distribütör ve buji kablosu yoktur; ateşlemeyi motor kontrol ünitesi yönetir."
+    },
+    {
+     "n": "4",
+     "title": "Üstten tek eksantrik, 24 supap",
+     "text": "Her silindir sırasında üstten tek eksantrik mili (SOHC), silindir başına 4 supabı külbütörler üzerinden açar. Eksantrikler triger kayışıyla döner."
+    }
+   ]
+  },
+  "bakim": {
+   "title": "Bakım ve Dikkat",
+   "subtitle": "Serviste bilinmesi gerekenler",
+   "callout": {
+    "label": "TRİGER KAYIŞI · DEĞİŞİM ARALIĞI",
+    "title": "≈ 170.000 km",
+    "sub": "(üretici değeri ≈ 105.000 mil)",
+    "text": "Interference motor: kayış koparsa supaplar pistonlara çarpar ve motor ağır hasar görür."
+   },
+   "items": [
+    {
+     "title": "Devirdaim pompası kayışla döner",
+     "text": "Triger değişiminde kayış, gergi, avara makaraları ve devirdaim pompası birlikte değiştirilmelidir."
+    },
+    {
+     "title": "Ateşleme sırası: 1-2-3-4-5-6",
+     "text": "Emme manifoldunun üzerinde de yazılıdır. Bobin veya buji sökerken silindir numaralarını karıştırmayın."
+    },
+    {
+     "title": "Motor yağı: 5W-30",
+     "text": "Alüminyum blok ve kapaklar nedeniyle cıvatalar tork değerine göre sıkılmalı; aşırı sıkma dişleri bozar."
+    }
+   ]
+  }
+ },
+ "02": {
+  "no": "02",
+  "kimlik": {
+   "title": "Toyota 1AD-FTV 2.0 D-4D",
+   "subtitle": "Kimlik ve kullanıldığı araçlar",
+   "boxes": [
+    {
+     "label": "MOTOR KODU",
+     "value": "1AD-FTV"
+    },
+    {
+     "label": "HACİM",
+     "value": "1998 cm³"
+    },
+    {
+     "label": "ÜRETİCİ",
+     "value": "Toyota"
+    },
+    {
+     "label": "GÜÇ",
+     "value": "124–126 BG"
+    }
+   ],
+   "sections": [
+    {
+     "title": "KULLANILDIĞI ARAÇLAR (2.0 D-4D)",
+     "rows": [
+      {
+       "k": "Toyota Avensis (2. ve 3. nesil)",
+       "v": "2006–2015",
+       "sub": []
+      },
+      {
+       "k": "Toyota Corolla",
+       "v": "2007–2016",
+       "sub": []
+      },
+      {
+       "k": "Toyota Auris",
+       "v": "2007–2016",
+       "sub": []
+      },
+      {
+       "k": "Toyota Corolla Verso / Verso",
+       "v": "2006–2013",
+       "sub": []
+      },
+      {
+       "k": "Toyota RAV4 (4. nesil)",
+       "v": "2013–2015",
+       "sub": []
+      }
+     ]
+    },
+    {
+     "title": "MOTOR ETİKETİ",
+     "rows": [
+      {
+       "k": "Vakum pompası etiketi",
+       "v": "TMIP E32",
+       "sub": []
+      },
+      {
+       "k": "Üretici fabrika",
+       "v": "TMIP, Polonya",
+       "sub": []
+      },
+      {
+       "k": "Atölyedeki motor",
+       "v": "Avensis 2.0 D-4D",
+       "sub": []
+      }
+     ]
+    }
+   ]
+  },
+  "teknik": {
+   "title": "Teknik Veriler",
+   "subtitle": "Toyota 1AD-FTV · 2.0 D-4D dizel",
+   "rows": [
+    {
+     "k": "Silindir dizilimi",
+     "v": "Sıralı 4 silindir",
+     "sub": []
+    },
+    {
+     "k": "Hacim",
+     "v": "1998 cm³ (2.0 L)",
+     "sub": []
+    },
+    {
+     "k": "Çap × Strok",
+     "v": "86,0 × 86,0 mm",
+     "sub": []
+    },
+    {
+     "k": "Blok / Silindir kapağı",
+     "v": "Alüminyum / Alüminyum",
+     "sub": [
+      "dökme demir silindir gömlekleri"
+     ]
+    },
+    {
+     "k": "Supap düzeni",
+     "v": "Üstten çift eksantrik (DOHC)",
+     "sub": [
+      "4 supap/silindir · toplam 16"
+     ]
+    },
+    {
+     "k": "Sıkıştırma oranı",
+     "v": "16,8 : 1",
+     "sub": [
+      "Euro 5 sürümü: 15,8 : 1"
+     ]
+    },
+    {
+     "k": "Maksimum güç",
+     "v": "126 BG (93 kW) @ 3600 d/d",
+     "sub": [
+      "126 PS = 126 metrik beygir · sonraki: 124 BG"
+     ]
+    },
+    {
+     "k": "Maksimum tork",
+     "v": "300 Nm @ 2000–3200 d/d",
+     "sub": [
+      "Euro 5 sürümü: 310 Nm"
+     ]
+    },
+    {
+     "k": "Yakıt sistemi",
+     "v": "Common rail, 1700 bar",
+     "sub": [
+      "Euro 5: 2000 bar, piezo enjektör"
+     ]
+    },
+    {
+     "k": "Aşırı doldurma",
+     "v": "Değişken geometrili turbo (VGT)",
+     "sub": []
+    },
+    {
+     "k": "Eksantrik tahriki",
+     "v": "Zincir",
+     "sub": []
+    }
+   ]
+  },
+  "ozellik": {
+   "title": "Öne Çıkan Özellikler",
+   "subtitle": "Bu motoru farklı kılan teknik çözümler",
+   "items": [
+    {
+     "n": "1",
+     "title": "Alüminyum dizel blok",
+     "text": "Blok alüminyumdan dökülmüş, silindirlerde dökme demir gömlekler var. Aynı sınıftaki dökme demir bloklu dizellere göre daha hafif."
+    },
+    {
+     "n": "2",
+     "title": "Common rail direkt enjeksiyon",
+     "text": "İlk sürümde 1700 bar basınç, 9 delikli solenoid enjektörler ve pilot enjeksiyon. Euro 5 sürümünde 2000 bar, piezo enjektörler ve partikül filtresi (DPF)."
+    },
+    {
+     "n": "3",
+     "title": "Değişken geometrili turbo",
+     "text": "Ara soğutuculu VGT turbo, düşük devirde de güçlü itiş sağlar: 300 Nm tork 2000 d/d'dan itibaren hazır."
+    },
+    {
+     "n": "4",
+     "title": "Zincirli eksantrik tahriki",
+     "text": "Çift eksantrik ve 16 supap zincirle döner. Triger kayışı gibi belirli kilometrede değiştirilmesi gereken bir parça yoktur."
+    }
+   ]
+  },
+  "bakim": {
+   "title": "Bakım ve Dikkat",
+   "subtitle": "Serviste bilinmesi gerekenler",
+   "callout": {
+    "label": "BİLİNEN SORUN",
+    "title": "Silindir kapak contası",
+    "sub": "ve artan yağ tüketimi",
+    "text": "Bu motorların en bilinen sorunu tekrarlayan silindir kapak contası arızasıdır. Contanın oturduğu yüzeylerdeki aşınma (erozyon) durumu daha da kötüleştirir."
+   },
+   "items": [
+    {
+     "title": "Yağ tüketimini izleyin",
+     "text": "Motor yaşlandıkça yağ tüketimi artabilir. Pistonlarda biriken karbon conta arızasını tetikleyebilir."
+    },
+    {
+     "title": "EGR ve enjektör pulları",
+     "text": "EGR valfinde hızlı karbon birikmesi ve enjektör sızdırmazlık pullarının yanması sık görülür."
+    },
+    {
+     "title": "Motor yağı: ≈ 6,3 L",
+     "text": "Zincirin sabit bir değişim aralığı yoktur; zincir ömrü için yağ değişimini zamanında yapın."
+    }
+   ]
+  }
+ },
+ "03": {
+  "no": "03",
+  "kimlik": {
+   "title": "Chrysler 2.7L V6 DOHC",
+   "subtitle": "Kimlik ve kullanıldığı araçlar",
+   "boxes": [
+    {
+     "label": "MOTOR KODU",
+     "value": "EER"
+    },
+    {
+     "label": "HACİM",
+     "value": "2736 cm³"
+    },
+    {
+     "label": "ÜRETİCİ",
+     "value": "Chrysler"
+    },
+    {
+     "label": "GÜÇ",
+     "value": "180–203 BG"
+    }
+   ],
+   "sections": [
+    {
+     "title": "KULLANILDIĞI ARAÇLAR",
+     "rows": [
+      {
+       "k": "Dodge / Chrysler Intrepid",
+       "v": "1998–2004",
+       "sub": []
+      },
+      {
+       "k": "Chrysler Concorde",
+       "v": "1998–2004",
+       "sub": []
+      },
+      {
+       "k": "Dodge Stratus (sedan)",
+       "v": "2001–2006",
+       "sub": []
+      },
+      {
+       "k": "Chrysler Sebring",
+       "v": "2001–2010",
+       "sub": []
+      },
+      {
+       "k": "Chrysler 300",
+       "v": "2005–2010",
+       "sub": []
+      },
+      {
+       "k": "Dodge Magnum · Charger · Avenger",
+       "v": "2005–2010",
+       "sub": []
+      }
+     ]
+    },
+    {
+     "title": "TANIMA",
+     "rows": [
+      {
+       "k": "Emme kapağı yazısı",
+       "v": "2.7 LITER DOHC 24 VALVE",
+       "sub": []
+      },
+      {
+       "k": "Üretim yeri",
+       "v": "Kenosha, Wisconsin (ABD)",
+       "sub": []
+      },
+      {
+       "k": "Akraba motor",
+       "v": "Chrysler 3.5L SOHC (Motor 01)",
+       "sub": []
+      }
+     ]
+    }
+   ]
+  },
+  "teknik": {
+   "title": "Teknik Veriler",
+   "subtitle": "Chrysler 2.7L V6 DOHC 24V · EER",
+   "rows": [
+    {
+     "k": "Silindir dizilimi",
+     "v": "V6",
+     "sub": []
+    },
+    {
+     "k": "Hacim",
+     "v": "2736 cm³ (2.7 L)",
+     "sub": []
+    },
+    {
+     "k": "Çap × Strok",
+     "v": "86,0 × 78,5 mm",
+     "sub": []
+    },
+    {
+     "k": "Blok / Silindir kapağı",
+     "v": "Alüminyum / Alüminyum",
+     "sub": [
+      "dökme demir silindir gömlekleri"
+     ]
+    },
+    {
+     "k": "Supap düzeni",
+     "v": "Üstten çift eksantrik (DOHC)",
+     "sub": [
+      "4 supap/silindir · toplam 24"
+     ]
+    },
+    {
+     "k": "Sıkıştırma oranı",
+     "v": "9,7 : 1",
+     "sub": [
+      "LX araçlarda 9,9 : 1"
+     ]
+    },
+    {
+     "k": "Maksimum güç",
+     "v": "203 BG (149 kW) @ 5800 d/d",
+     "sub": [
+      "1998 · 2004 sonrası 192 BG · 2009 LX 180 BG"
+     ]
+    },
+    {
+     "k": "Maksimum tork",
+     "v": "258 Nm @ 4850 d/d (1998)",
+     "sub": [
+      "2004 LX: 258 Nm @ 4000 d/d"
+     ]
+    },
+    {
+     "k": "Eksantrik tahriki",
+     "v": "Üç sıralı zincir",
+     "sub": []
+    },
+    {
+     "k": "Devirdaim pompası",
+     "v": "Zincirle tahrikli (motor içinde)",
+     "sub": []
+    },
+    {
+     "k": "Devir sınırı",
+     "v": "6464 d/d",
+     "sub": [
+      "2004 sonrası 6600 d/d"
+     ]
+    }
+   ]
+  },
+  "ozellik": {
+   "title": "Öne Çıkan Özellikler",
+   "subtitle": "Bu motoru farklı kılan teknik çözümler",
+   "items": [
+    {
+     "n": "1",
+     "title": "Alüminyum blok ve kapaklar",
+     "text": "Blok ve silindir kapakları alüminyum; silindirlerde dökme demir gömlekler bulunur."
+    },
+    {
+     "n": "2",
+     "title": "Çift eksantrik, makaralı külbütör",
+     "text": "Her sırada iki eksantrik, silindir başına 4 supap. Supaplar hidrolik makaralı külbütörler ve hidrolik iticilerle açılır."
+    },
+    {
+     "n": "3",
+     "title": "Kayış yerine zincir",
+     "text": "Atölyedeki Chrysler 3.5'te triger kayışı varken bu motorda eksantrikler üç sıralı bir zincirle döner."
+    },
+    {
+     "n": "4",
+     "title": "3.5'in kardeşi",
+     "text": "Bu motor, Chrysler 3.5 SOHC ile aynı tasarım ailesinden gelir; ama silindir çapı, strok ve üretim yeri farklıdır."
+    }
+   ]
+  },
+  "bakim": {
+   "title": "Bakım ve Dikkat",
+   "subtitle": "Serviste bilinmesi gerekenler",
+   "callout": {
+    "label": "BİLİNEN SORUN",
+    "title": "Yağ çamurlaşması",
+    "sub": "",
+    "text": "Yüksek çalışma sıcaklığı, düşük yağ kapasitesi, devirdaimden kartere sızıntı ve karter havalandırması sorunlarıyla ilişkilendirilir. İhmal edilen yağ değişimleri durumu kötüleştirir; ABD'de toplu davalara konu oldu."
+   },
+   "items": [
+    {
+     "title": "Devirdaim pompası motorun içinde",
+     "text": "Pompa zincirle döner. Contası içeriden kaçırırsa soğutma suyu yağa karışır; bu hemen onarılmazsa motor arızası olası."
+    },
+    {
+     "title": "Zincir gergisi",
+     "text": "Zincir gergisinde erken arıza bildirilmiştir."
+    },
+    {
+     "title": "Yağ değişimini aksatmayın",
+     "text": "Çamurlaşma riskine karşı yağ değişimleri zamanında yapılmalı."
+    }
+   ]
+  }
+ },
+ "04": {
+  "no": "04",
+  "kimlik": {
+   "title": "Fiat Abarth Palio S1600",
+   "subtitle": "Kimlik ve kullanıldığı araçlar",
+   "boxes": [
+    {
+     "label": "SINIF",
+     "value": "Super 1600"
+    },
+    {
+     "label": "HACİM",
+     "value": "1.6 L"
+    },
+    {
+     "label": "ÜRETİCİ",
+     "value": "Fiat · Abarth"
+    },
+    {
+     "label": "GÜÇ",
+     "value": "218 BG"
+    }
+   ],
+   "sections": [
+    {
+     "title": "KULLANILDIĞI ARAÇ",
+     "rows": [
+      {
+       "k": "Fiat Palio Super 1600 Abarth",
+       "v": "Ralli otomobili",
+       "sub": []
+      },
+      {
+       "k": "Geliştiren",
+       "v": "Türk Fiat Ralli Takımı",
+       "sub": []
+      },
+      {
+       "k": "İlk yarış",
+       "v": "Arjantin Rallisi 2002",
+       "sub": []
+      },
+      {
+       "k": "İlk galibiyet",
+       "v": "Kocaeli Rallisi 2003",
+       "sub": []
+      }
+     ]
+    },
+    {
+     "title": "TANIMA",
+     "rows": [
+      {
+       "k": "Külbüt kapağı yazısı",
+       "v": "Fiat ABARTH Palio S1600",
+       "sub": []
+      },
+      {
+       "k": "Yol versiyonu",
+       "v": "Fiat Palio 1.6 16V",
+       "sub": []
+      },
+      {
+       "k": "Silindir sayısı",
+       "v": "4 · sıralı",
+       "sub": []
+      }
+     ]
+    }
+   ]
+  },
+  "teknik": {
+   "title": "Teknik Veriler",
+   "subtitle": "Fiat Abarth Palio S1600 · ralli motoru",
+   "rows": [
+    {
+     "k": "Silindir dizilimi",
+     "v": "Sıralı 4 silindir",
+     "sub": []
+    },
+    {
+     "k": "Hacim",
+     "v": "1.6 L",
+     "sub": [
+      "sınıf sınırı: en fazla 1640 cm³"
+     ]
+    },
+    {
+     "k": "Supap sayısı",
+     "v": "16 (silindir başına 4)",
+     "sub": []
+    },
+    {
+     "k": "Hava besleme",
+     "v": "Atmosferik",
+     "sub": [
+      "S1600'de turbo yok"
+     ]
+    },
+    {
+     "k": "Maksimum güç",
+     "v": "218 BG",
+     "sub": [
+      "sınıfta 233 BG'ye kadar çıkılır"
+     ]
+    },
+    {
+     "k": "Şanzıman",
+     "v": "6 ileri sıralı (sekansiyel)",
+     "sub": []
+    },
+    {
+     "k": "Çekiş",
+     "v": "Tek aks (önden çekiş)",
+     "sub": []
+    },
+    {
+     "k": "Sınıf min. ağırlığı",
+     "v": "980 kg",
+     "sub": []
+    },
+    {
+     "k": "Egzoz ses sınırı",
+     "v": "100 dB @ 4500 d/d",
+     "sub": []
+    },
+    {
+     "k": "Eksantrik tahriki",
+     "v": "Triger kayışı",
+     "sub": []
+    }
+   ]
+  },
+  "ozellik": {
+   "title": "Öne Çıkan Özellikler",
+   "subtitle": "Bu motoru farklı kılan teknik çözümler",
+   "items": [
+    {
+     "n": "1",
+     "title": "Türkiye'de geliştirildi",
+     "text": "Palio Super 1600 Abarth ralli otomobili, Türk Fiat Ralli Takımı tarafından yaratıldı."
+    },
+    {
+     "n": "2",
+     "title": "Super 1600 kuralları",
+     "text": "FIA'nın 2000'de tanımladığı sınıf: en fazla 1640 cm³ atmosferik 4 silindir, tek aks çekiş ve en fazla 6 ileri sıralı şanzıman."
+    },
+    {
+     "n": "3",
+     "title": "Litre başına yüksek güç",
+     "text": "1.6 litreden 218 BG. Aynı hacimdeki yol versiyonu Palio 1.6 16V yaklaşık 100 BG üretiyordu."
+    },
+    {
+     "n": "4",
+     "title": "Ayarlanabilir eksantrik dişlileri",
+     "text": "Eksantrik dişlileri ayar delikli tiptedir; bu, supap zamanlamasında ince ayar yapılmasına izin verir."
+    }
+   ]
+  },
+  "bakim": {
+   "title": "Yarış Geçmişi",
+   "subtitle": "Pistten atölyeye",
+   "callout": {
+    "label": "İLK GALİBİYET",
+    "title": "Kocaeli Rallisi 2003",
+    "sub": "Ford Otosan Kocaeli Rallisi",
+    "text": "Türkiye'de geliştirilen otomobil, ilk zaferini de Türkiye'de kazandı."
+   },
+   "items": [
+    {
+     "title": "İlk yarış: 2002",
+     "text": "Palio S1600 ilk kez 2002 Arjantin Rallisi'nde start aldı."
+    },
+    {
+     "title": "İlk podyum: 2003",
+     "text": "İlk podyumunu 2003 Ege Rallisi'nde elde etti."
+    },
+    {
+     "title": "Uzun bir kariyer",
+     "text": "Kayıtlara göre otomobil 2023 Bodrum Rallisi'nde de yarıştı. Super 1600 sınıfı ise 2011'den itibaren Junior WRC'de kabul edilmedi."
+    }
+   ]
+  }
+ },
+ "05": {
+  "no": "05",
+  "kimlik": {
+   "title": "Alfa Romeo 3.2 JTS V6",
+   "subtitle": "Kimlik ve kullanıldığı araçlar",
+   "boxes": [
+    {
+     "label": "MOTOR KODU",
+     "value": "939A000"
+    },
+    {
+     "label": "HACİM",
+     "value": "3195 cm³"
+    },
+    {
+     "label": "ÜRETİCİ",
+     "value": "Alfa Romeo"
+    },
+    {
+     "label": "GÜÇ",
+     "value": "260 BG"
+    }
+   ],
+   "sections": [
+    {
+     "title": "KULLANILDIĞI ARAÇLAR",
+     "rows": [
+      {
+       "k": "Alfa Romeo 159 / Sportwagon",
+       "v": "2005–2011",
+       "sub": []
+      },
+      {
+       "k": "Alfa Romeo Brera",
+       "v": "2005–2010",
+       "sub": []
+      },
+      {
+       "k": "Alfa Romeo Spider",
+       "v": "2006–2010",
+       "sub": []
+      },
+      {
+       "k": "Alfa Romeo Visconti (konsept)",
+       "v": "2004",
+       "sub": []
+      }
+     ]
+    },
+    {
+     "title": "MOTOR ETİKETİ",
+     "rows": [
+      {
+       "k": "Tipo Omologato",
+       "v": "939A000",
+       "sub": []
+      },
+      {
+       "k": "Üretim yeri",
+       "v": "Avustralya (GM Holden)",
+       "sub": []
+      },
+      {
+       "k": "Temel aldığı motor",
+       "v": "GM High Feature V6",
+       "sub": []
+      }
+     ]
+    }
+   ]
+  },
+  "teknik": {
+   "title": "Teknik Veriler",
+   "subtitle": "Alfa Romeo 3.2 JTS V6 · 939A000",
+   "rows": [
+    {
+     "k": "Silindir dizilimi",
+     "v": "V6",
+     "sub": []
+    },
+    {
+     "k": "Hacim",
+     "v": "3195 cm³ (3.2 L)",
+     "sub": []
+    },
+    {
+     "k": "Çap × Strok",
+     "v": "89,0 × 85,6 mm",
+     "sub": []
+    },
+    {
+     "k": "Blok / Silindir kapağı",
+     "v": "Alüminyum / Alüminyum",
+     "sub": []
+    },
+    {
+     "k": "Supap düzeni",
+     "v": "Üstten çift eksantrik (DOHC)",
+     "sub": [
+      "4 supap/silindir · toplam 24"
+     ]
+    },
+    {
+     "k": "Değişken zamanlama",
+     "v": "TwinPhaser",
+     "sub": [
+      "emme ve egzoz eksantriklerinde"
+     ]
+    },
+    {
+     "k": "Sıkıştırma oranı",
+     "v": "11,25 : 1",
+     "sub": []
+    },
+    {
+     "k": "Maksimum güç",
+     "v": "260 BG (191 kW) @ 6200 d/d",
+     "sub": [
+      "260 PS = 260 metrik beygir"
+     ]
+    },
+    {
+     "k": "Maksimum tork",
+     "v": "322 Nm @ 3800 d/d",
+     "sub": []
+    },
+    {
+     "k": "Yakıt sistemi",
+     "v": "Benzin direkt enjeksiyon (JTS)",
+     "sub": []
+    },
+    {
+     "k": "Eksantrik tahriki",
+     "v": "Zincir",
+     "sub": []
+    }
+   ]
+  },
+  "ozellik": {
+   "title": "Öne Çıkan Özellikler",
+   "subtitle": "Bu motoru farklı kılan teknik çözümler",
+   "items": [
+    {
+     "n": "1",
+     "title": "GM kökenli V6",
+     "text": "GM High Feature motorundan türetildi; Alfa Romeo'nun klasik V6 motoruyla bir ilgisi yok."
+    },
+    {
+     "n": "2",
+     "title": "JTS direkt enjeksiyon",
+     "text": "Benzin doğrudan silindirin içine püskürtülür; bu sayede 11,25 : 1 gibi yüksek bir sıkıştırma oranı kullanılabilir."
+    },
+    {
+     "n": "3",
+     "title": "Zincirli dört eksantrik",
+     "text": "Her silindir sırasında iki eksantrik var; dördü de zincirle döner."
+    },
+    {
+     "n": "4",
+     "title": "Avustralya'da üretildi",
+     "text": "GM'in Avustralya kuruluşu Holden üretti; Alfa Romeo 159, Brera ve Spider'da kullanıldı."
+    },
+    {
+     "n": "5",
+     "title": "TwinPhaser nedir?",
+     "text": "Eksantrik dişlilerindeki hidrolik ayarlayıcılar, yağ basıncıyla eksantriği dişliye göre birkaç derece döndürür. Böylece emme ve egzoz supaplarının açılma anı devire göre değişir: düşük devirde daha çok tork, yüksek devirde daha çok güç. TwinPhaser supap kursunu değiştirmez, yalnızca supap zamanlamasını değiştirir."
+    }
+   ]
+  },
+  "bakim": {
+   "title": "Bakım ve Dikkat",
+   "subtitle": "Serviste bilinmesi gerekenler",
+   "callout": {
+    "label": "BİLİNEN SORUN",
+    "title": "Eksantrik zinciri",
+    "sub": "dayanıklılığı yağ bakımına bağlı",
+    "text": "Bu motorun en bilinen sorunu çok dayanıklı olmayan eksantrik zinciridir. Ömrü yağ değişim aralığına çok bağlıdır; bazı motorlarda zincir 50.000 km'de değiştirilmiştir."
+   },
+   "items": [
+    {
+     "title": "Motor yağı: 5W-40, ≈ 5,4 L",
+     "text": "Zincir ömrü için yağ değişimlerini kısa aralıklarla yapın."
+    },
+    {
+     "title": "Katalitik konvertör",
+     "text": "İlk üretim yıllarına ait motorlarda katalizörün hızlı bozulması bildirilmiştir."
+    },
+    {
+     "title": "Atölye notu",
+     "text": "Motor etiketi 'Tipo Omologato 939A000' bilgisinden ve atölyenin 3.2 L teyidinden teşhis edildi."
+    }
+   ]
+  }
+ },
+ "06": {
+  "no": "06",
+  "kimlik": {
+   "title": "VM Motori 2.5 CRD",
+   "subtitle": "Kimlik ve kullanıldığı araçlar",
+   "boxes": [
+    {
+     "label": "MOTOR KODU",
+     "value": "R425 DOHC"
+    },
+    {
+     "label": "HACİM",
+     "value": "2499 cm³"
+    },
+    {
+     "label": "ÜRETİCİ",
+     "value": "VM Motori"
+    },
+    {
+     "label": "GÜÇ",
+     "value": "143 BG"
+    }
+   ],
+   "sections": [
+    {
+     "title": "KULLANILDIĞI ARAÇLAR",
+     "rows": [
+      {
+       "k": "Chrysler Voyager 2.5 CRD",
+       "v": "2001–2007",
+       "sub": []
+      },
+      {
+       "k": "Jeep Cherokee / Liberty (KJ)",
+       "v": "2002–2004",
+       "sub": []
+      },
+      {
+       "k": "LDV Maxus",
+       "v": "2005–2009",
+       "sub": []
+      },
+      {
+       "k": "London TX4 taksi (101 BG)",
+       "v": "2006 →",
+       "sub": []
+      }
+     ]
+    },
+    {
+     "title": "MOTOR ETİKETİ",
+     "rows": [
+      {
+       "k": "Seri no (blok damgası)",
+       "v": "01P01320",
+       "sub": []
+      },
+      {
+       "k": "Silindir kapağı dökümü",
+       "v": "VM logosu · L0350045A",
+       "sub": []
+      },
+      {
+       "k": "Turbo",
+       "v": "IHI (Japonya)",
+       "sub": []
+      }
+     ]
+    }
+   ]
+  },
+  "teknik": {
+   "title": "Teknik Veriler",
+   "subtitle": "VM Motori R425 DOHC · 2.5 CRD dizel",
+   "rows": [
+    {
+     "k": "Silindir dizilimi",
+     "v": "Sıralı 4 silindir",
+     "sub": []
+    },
+    {
+     "k": "Hacim",
+     "v": "2499 cm³ (2.5 L)",
+     "sub": []
+    },
+    {
+     "k": "Çap × Strok",
+     "v": "92 × 94 mm",
+     "sub": []
+    },
+    {
+     "k": "Blok / Silindir kapağı",
+     "v": "Dökme demir / Alüminyum",
+     "sub": [
+      "tek parça silindir kapağı"
+     ]
+    },
+    {
+     "k": "Supap düzeni",
+     "v": "Üstten çift eksantrik (DOHC)",
+     "sub": [
+      "4 supap/silindir · toplam 16"
+     ]
+    },
+    {
+     "k": "Yakıt sistemi",
+     "v": "Common rail direkt enjeksiyon",
+     "sub": []
+    },
+    {
+     "k": "Turbo",
+     "v": "IHI RHF4H",
+     "sub": []
+    },
+    {
+     "k": "Maksimum güç",
+     "v": "143 BG (105 kW)",
+     "sub": []
+    },
+    {
+     "k": "Maksimum tork",
+     "v": "340 Nm",
+     "sub": []
+    },
+    {
+     "k": "Eksantrik tahriki",
+     "v": "Triger kayışı",
+     "sub": []
+    },
+    {
+     "k": "Üretim yeri",
+     "v": "Cento, İtalya",
+     "sub": []
+    }
+   ]
+  },
+  "ozellik": {
+   "title": "Öne Çıkan Özellikler",
+   "subtitle": "Bu motoru farklı kılan teknik çözümler",
+   "items": [
+    {
+     "n": "1",
+     "title": "İtalyan dizel uzmanı",
+     "text": "VM Motori 1947'de Cento'da kuruldu; adı kurucuları Vancini ve Martelli'nin baş harflerinden gelir. 2000 yılında DaimlerChrysler bünyesine geçti."
+    },
+    {
+     "n": "2",
+     "title": "Tek parça kapak, 16 supap",
+     "text": "Eski R425 OHV'de her silindirin ayrı kapağı vardı. DOHC sürümü tek parça kapak, silindir başına 4 supap ve common rail ile geldi."
+    },
+    {
+     "n": "3",
+     "title": "Teşhis ipucu: IHI turbo",
+     "text": "Bu ailede 2.5 L R425'te IHI turbo, 2.8 L R428'de Garrett turbo kullanıldı. Atölyedeki motordaki IHI turbo 2.5 olduğunu gösterir."
+    },
+    {
+     "n": "4",
+     "title": "Geniş kullanım alanı",
+     "text": "Voyager ve Cherokee'nin yanında LDV Maxus, London TX4 taksisi ve Holden/Chevrolet Colorado'da da 2.5 L VM motorları kullanıldı."
+    }
+   ]
+  },
+  "bakim": {
+   "title": "Bakım ve Dikkat",
+   "subtitle": "Serviste bilinmesi gerekenler",
+   "callout": {
+    "label": "EKSANTRİK TAHRİKİ",
+    "title": "Triger kayışı",
+    "sub": "değişim aralığı araç servis planında",
+    "text": "Bu motorda eksantrikler kayışla döner. Kayış değişiminde gergi ve avara makaraları da birlikte yenilenmelidir."
+   },
+   "items": [
+    {
+     "title": "2.5 mi, 2.8 mi?",
+     "text": "Silindir çapı ölçülerek ayırt edilir: 2.5 L = 92 × 94 mm, 2.8 L = 94 × 100 mm."
+    },
+    {
+     "title": "Seri numarası",
+     "text": "Blokta yıldızlar arasında damgalıdır (★01P★01320★) ve triger kapağındaki etiketle aynıdır."
+    },
+    {
+     "title": "Motor yağı: 5W-30, ≈ 6,0 L",
+     "text": "Değerler Chrysler/Jeep uygulamasına aittir; kesin değer için aracın servis kitabına bakın."
+    }
+   ]
+  }
+ }
+}
